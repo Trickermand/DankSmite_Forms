@@ -1,0 +1,9 @@
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GodAndItemController\bin\Debug\GodAndItemController.dll
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GodAndItemController\bin\Debug\GodAndItemController.pdb
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GodAndItemController\obj\Debug\GodAndItemController.dll
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GodAndItemController\obj\Debug\GodAndItemController.pdb
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\GodAndItemController\bin\Debug\GodAndItemController.dll
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\GodAndItemController\bin\Debug\GodAndItemController.pdb
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\GodAndItemController\obj\Debug\GodAndItemController.csprojResolveAssemblyReference.cache
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\GodAndItemController\obj\Debug\GodAndItemController.dll
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\GodAndItemController\obj\Debug\GodAndItemController.pdb

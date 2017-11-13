@@ -1,0 +1,13 @@
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GraphicalWindow\bin\Release\GraphicalWindow.exe.config
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GraphicalWindow\bin\Release\GraphicalWindow.exe
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GraphicalWindow\bin\Release\GraphicalWindow.pdb
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GraphicalWindow\bin\Release\GodAndItemController.dll
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GraphicalWindow\bin\Release\SmiteRandom.exe
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GraphicalWindow\bin\Release\GodAndItemController.pdb
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GraphicalWindow\bin\Release\SmiteRandom.pdb
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GraphicalWindow\obj\Release\GraphicalWindow.csprojResolveAssemblyReference.cache
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GraphicalWindow\obj\Release\GraphicalWindow.Form1.resources
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GraphicalWindow\obj\Release\GraphicalWindow.Properties.Resources.resources
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GraphicalWindow\obj\Release\GraphicalWindow.csproj.GenerateResource.Cache
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GraphicalWindow\obj\Release\GraphicalWindow.exe
+C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GraphicalWindow\obj\Release\GraphicalWindow.pdb

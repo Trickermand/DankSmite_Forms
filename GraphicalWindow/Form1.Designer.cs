@@ -1,0 +1,822 @@
+﻿using System.Drawing;
+using System.Reflection;
+
+namespace DankSmite
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.button1 = new System.Windows.Forms.Button();
+            this.ItemLabel1 = new System.Windows.Forms.Label();
+            this.ItemLabel2 = new System.Windows.Forms.Label();
+            this.ItemLabel3 = new System.Windows.Forms.Label();
+            this.ItemLabel4 = new System.Windows.Forms.Label();
+            this.ItemLabel5 = new System.Windows.Forms.Label();
+            this.ItemLabel6 = new System.Windows.Forms.Label();
+            this.RelicLabel2 = new System.Windows.Forms.Label();
+            this.RelicLabel1 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.GodPicture = new System.Windows.Forms.PictureBox();
+            this.ItemPicture1 = new System.Windows.Forms.PictureBox();
+            this.ItemPicture2 = new System.Windows.Forms.PictureBox();
+            this.ItemPicture3 = new System.Windows.Forms.PictureBox();
+            this.ItemPicture4 = new System.Windows.Forms.PictureBox();
+            this.ItemPicture5 = new System.Windows.Forms.PictureBox();
+            this.ItemPicture6 = new System.Windows.Forms.PictureBox();
+            this.Relic1 = new System.Windows.Forms.PictureBox();
+            this.Relic2 = new System.Windows.Forms.PictureBox();
+            this.RerollLabel = new System.Windows.Forms.Label();
+            this.RerollNumber = new System.Windows.Forms.Label();
+            this.TextInput = new System.Windows.Forms.TextBox();
+            this.StarterItemPicture = new System.Windows.Forms.PictureBox();
+            this.StarterItemLabel = new System.Windows.Forms.Label();
+            this.CurrentItemNameLabel = new System.Windows.Forms.Label();
+            this.GodLabel = new System.Windows.Forms.Label();
+            this.CreditsButon = new System.Windows.Forms.Button();
+            this.GeneralTextBox = new System.Windows.Forms.Label();
+            this.WelcomeButton = new System.Windows.Forms.Button();
+            this.MageCheckBox = new System.Windows.Forms.CheckBox();
+            this.GuardianCheckBox = new System.Windows.Forms.CheckBox();
+            this.HunterCheckBox = new System.Windows.Forms.CheckBox();
+            this.WarriorCheckBox = new System.Windows.Forms.CheckBox();
+            this.AssassinCheckBox = new System.Windows.Forms.CheckBox();
+            this.DefenseCheckBox = new System.Windows.Forms.CheckBox();
+            this.HybridCheckBox = new System.Windows.Forms.CheckBox();
+            this.DamageCheckBox = new System.Windows.Forms.CheckBox();
+            this.MagicalLabel = new System.Windows.Forms.Label();
+            this.PhysicalLabel = new System.Windows.Forms.Label();
+            this.ItemIntensityLabel = new System.Windows.Forms.Label();
+            this.ErrorTextBox = new System.Windows.Forms.Label();
+            this.CheckBoxGroup = new System.Windows.Forms.GroupBox();
+            this.HelpButton = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.GodPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemPicture1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemPicture2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemPicture3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemPicture4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemPicture5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemPicture6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Relic1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Relic2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StarterItemPicture)).BeginInit();
+            this.CheckBoxGroup.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Maroon;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(534, 59);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(192, 46);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Get Me A Build!";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.BuildButton);
+            // 
+            // ItemLabel1
+            // 
+            this.ItemLabel1.AutoSize = true;
+            this.ItemLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemLabel1.ForeColor = System.Drawing.Color.Maroon;
+            this.ItemLabel1.Location = new System.Drawing.Point(583, 397);
+            this.ItemLabel1.Name = "ItemLabel1";
+            this.ItemLabel1.Size = new System.Drawing.Size(60, 20);
+            this.ItemLabel1.TabIndex = 1;
+            this.ItemLabel1.Text = "Item 1";
+            this.ItemLabel1.Visible = false;
+            // 
+            // ItemLabel2
+            // 
+            this.ItemLabel2.AutoSize = true;
+            this.ItemLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemLabel2.ForeColor = System.Drawing.Color.Maroon;
+            this.ItemLabel2.Location = new System.Drawing.Point(705, 397);
+            this.ItemLabel2.Name = "ItemLabel2";
+            this.ItemLabel2.Size = new System.Drawing.Size(60, 20);
+            this.ItemLabel2.TabIndex = 2;
+            this.ItemLabel2.Text = "Item 2";
+            this.ItemLabel2.Visible = false;
+            // 
+            // ItemLabel3
+            // 
+            this.ItemLabel3.AutoSize = true;
+            this.ItemLabel3.BackColor = System.Drawing.Color.SkyBlue;
+            this.ItemLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemLabel3.ForeColor = System.Drawing.Color.Maroon;
+            this.ItemLabel3.Location = new System.Drawing.Point(827, 397);
+            this.ItemLabel3.Name = "ItemLabel3";
+            this.ItemLabel3.Size = new System.Drawing.Size(60, 20);
+            this.ItemLabel3.TabIndex = 3;
+            this.ItemLabel3.Text = "Item 3";
+            this.ItemLabel3.Visible = false;
+            // 
+            // ItemLabel4
+            // 
+            this.ItemLabel4.AutoSize = true;
+            this.ItemLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemLabel4.ForeColor = System.Drawing.Color.Maroon;
+            this.ItemLabel4.Location = new System.Drawing.Point(583, 530);
+            this.ItemLabel4.Name = "ItemLabel4";
+            this.ItemLabel4.Size = new System.Drawing.Size(60, 20);
+            this.ItemLabel4.TabIndex = 4;
+            this.ItemLabel4.Text = "Item 4";
+            this.ItemLabel4.Visible = false;
+            // 
+            // ItemLabel5
+            // 
+            this.ItemLabel5.AutoSize = true;
+            this.ItemLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemLabel5.ForeColor = System.Drawing.Color.Maroon;
+            this.ItemLabel5.Location = new System.Drawing.Point(705, 530);
+            this.ItemLabel5.Name = "ItemLabel5";
+            this.ItemLabel5.Size = new System.Drawing.Size(60, 20);
+            this.ItemLabel5.TabIndex = 5;
+            this.ItemLabel5.Text = "Item 5";
+            this.ItemLabel5.Visible = false;
+            // 
+            // ItemLabel6
+            // 
+            this.ItemLabel6.AutoSize = true;
+            this.ItemLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemLabel6.ForeColor = System.Drawing.Color.Maroon;
+            this.ItemLabel6.Location = new System.Drawing.Point(827, 530);
+            this.ItemLabel6.Name = "ItemLabel6";
+            this.ItemLabel6.Size = new System.Drawing.Size(60, 20);
+            this.ItemLabel6.TabIndex = 6;
+            this.ItemLabel6.Text = "Item 6";
+            this.ItemLabel6.Visible = false;
+            // 
+            // RelicLabel2
+            // 
+            this.RelicLabel2.AutoSize = true;
+            this.RelicLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RelicLabel2.ForeColor = System.Drawing.Color.Maroon;
+            this.RelicLabel2.Location = new System.Drawing.Point(444, 530);
+            this.RelicLabel2.Name = "RelicLabel2";
+            this.RelicLabel2.Size = new System.Drawing.Size(64, 20);
+            this.RelicLabel2.TabIndex = 7;
+            this.RelicLabel2.Text = "Relic 2";
+            this.RelicLabel2.Visible = false;
+            // 
+            // RelicLabel1
+            // 
+            this.RelicLabel1.AutoSize = true;
+            this.RelicLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RelicLabel1.ForeColor = System.Drawing.Color.Maroon;
+            this.RelicLabel1.Location = new System.Drawing.Point(326, 530);
+            this.RelicLabel1.Name = "RelicLabel1";
+            this.RelicLabel1.Size = new System.Drawing.Size(64, 20);
+            this.RelicLabel1.TabIndex = 8;
+            this.RelicLabel1.Text = "Relic 1";
+            this.RelicLabel1.Visible = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Maroon;
+            this.label9.Location = new System.Drawing.Point(80, 121);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(43, 20);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "God";
+            // 
+            // GodPicture
+            // 
+            this.GodPicture.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.GodPicture.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GodPicture.Location = new System.Drawing.Point(39, 144);
+            this.GodPicture.Name = "GodPicture";
+            this.GodPicture.Size = new System.Drawing.Size(128, 128);
+            this.GodPicture.TabIndex = 17;
+            this.GodPicture.TabStop = false;
+            this.GodPicture.Click += new System.EventHandler(this.godPictureBox_Click);
+            this.GodPicture.DoubleClick += new System.EventHandler(this.godPictureBox_Click);
+            // 
+            // ItemPicture1
+            // 
+            this.ItemPicture1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ItemPicture1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ItemPicture1.Location = new System.Drawing.Point(567, 420);
+            this.ItemPicture1.Name = "ItemPicture1";
+            this.ItemPicture1.Size = new System.Drawing.Size(92, 92);
+            this.ItemPicture1.TabIndex = 9;
+            this.ItemPicture1.TabStop = false;
+            this.ItemPicture1.Click += new System.EventHandler(this.ItemPicture1_Click);
+            this.ItemPicture1.DoubleClick += new System.EventHandler(this.ItemPicture1_Click);
+            this.ItemPicture1.MouseEnter += new System.EventHandler(this.pictureBox1_Hover);
+            this.ItemPicture1.MouseLeave += new System.EventHandler(this.ClearLabels);
+            // 
+            // ItemPicture2
+            // 
+            this.ItemPicture2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ItemPicture2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ItemPicture2.Location = new System.Drawing.Point(690, 420);
+            this.ItemPicture2.Name = "ItemPicture2";
+            this.ItemPicture2.Size = new System.Drawing.Size(92, 92);
+            this.ItemPicture2.TabIndex = 22;
+            this.ItemPicture2.TabStop = false;
+            this.ItemPicture2.Click += new System.EventHandler(this.ItemPicture2_Click);
+            this.ItemPicture2.DoubleClick += new System.EventHandler(this.ItemPicture2_Click);
+            this.ItemPicture2.MouseEnter += new System.EventHandler(this.pictureBox2_Hover);
+            this.ItemPicture2.MouseLeave += new System.EventHandler(this.ClearLabels);
+            // 
+            // ItemPicture3
+            // 
+            this.ItemPicture3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ItemPicture3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ItemPicture3.Location = new System.Drawing.Point(813, 420);
+            this.ItemPicture3.Name = "ItemPicture3";
+            this.ItemPicture3.Size = new System.Drawing.Size(92, 92);
+            this.ItemPicture3.TabIndex = 20;
+            this.ItemPicture3.TabStop = false;
+            this.ItemPicture3.Click += new System.EventHandler(this.ItemPicture3_Click);
+            this.ItemPicture3.DoubleClick += new System.EventHandler(this.ItemPicture3_Click);
+            this.ItemPicture3.MouseEnter += new System.EventHandler(this.pictureBox3_Hover);
+            this.ItemPicture3.MouseLeave += new System.EventHandler(this.ClearLabels);
+            // 
+            // ItemPicture4
+            // 
+            this.ItemPicture4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ItemPicture4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ItemPicture4.Location = new System.Drawing.Point(567, 553);
+            this.ItemPicture4.Name = "ItemPicture4";
+            this.ItemPicture4.Size = new System.Drawing.Size(92, 92);
+            this.ItemPicture4.TabIndex = 23;
+            this.ItemPicture4.TabStop = false;
+            this.ItemPicture4.Click += new System.EventHandler(this.ItemPicture4_Click);
+            this.ItemPicture4.DoubleClick += new System.EventHandler(this.ItemPicture4_Click);
+            this.ItemPicture4.MouseEnter += new System.EventHandler(this.pictureBox4_Hover);
+            this.ItemPicture4.MouseLeave += new System.EventHandler(this.ClearLabels);
+            // 
+            // ItemPicture5
+            // 
+            this.ItemPicture5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ItemPicture5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ItemPicture5.Location = new System.Drawing.Point(690, 553);
+            this.ItemPicture5.Name = "ItemPicture5";
+            this.ItemPicture5.Size = new System.Drawing.Size(92, 92);
+            this.ItemPicture5.TabIndex = 21;
+            this.ItemPicture5.TabStop = false;
+            this.ItemPicture5.Click += new System.EventHandler(this.ItemPicture5_Click);
+            this.ItemPicture5.DoubleClick += new System.EventHandler(this.ItemPicture5_Click);
+            this.ItemPicture5.MouseEnter += new System.EventHandler(this.pictureBox5_Hover);
+            this.ItemPicture5.MouseLeave += new System.EventHandler(this.ClearLabels);
+            // 
+            // ItemPicture6
+            // 
+            this.ItemPicture6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ItemPicture6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ItemPicture6.Location = new System.Drawing.Point(813, 553);
+            this.ItemPicture6.Name = "ItemPicture6";
+            this.ItemPicture6.Size = new System.Drawing.Size(92, 92);
+            this.ItemPicture6.TabIndex = 19;
+            this.ItemPicture6.TabStop = false;
+            this.ItemPicture6.Click += new System.EventHandler(this.ItemPicture6_Click);
+            this.ItemPicture6.DoubleClick += new System.EventHandler(this.ItemPicture6_Click);
+            this.ItemPicture6.MouseEnter += new System.EventHandler(this.pictureBox6_Hover);
+            this.ItemPicture6.MouseLeave += new System.EventHandler(this.ClearLabels);
+            // 
+            // Relic1
+            // 
+            this.Relic1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Relic1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Relic1.Location = new System.Drawing.Point(310, 553);
+            this.Relic1.Name = "Relic1";
+            this.Relic1.Size = new System.Drawing.Size(92, 92);
+            this.Relic1.TabIndex = 25;
+            this.Relic1.TabStop = false;
+            this.Relic1.Click += new System.EventHandler(this.RelicPicture1_Click);
+            this.Relic1.DoubleClick += new System.EventHandler(this.RelicPicture1_Click);
+            this.Relic1.MouseEnter += new System.EventHandler(this.Relic1_Hover);
+            this.Relic1.MouseLeave += new System.EventHandler(this.ClearLabels);
+            // 
+            // Relic2
+            // 
+            this.Relic2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Relic2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Relic2.Location = new System.Drawing.Point(433, 553);
+            this.Relic2.Name = "Relic2";
+            this.Relic2.Size = new System.Drawing.Size(92, 92);
+            this.Relic2.TabIndex = 24;
+            this.Relic2.TabStop = false;
+            this.Relic2.Click += new System.EventHandler(this.RelicPicture2_Click);
+            this.Relic2.DoubleClick += new System.EventHandler(this.RelicPicture2_Click);
+            this.Relic2.MouseEnter += new System.EventHandler(this.Relic2_Hover);
+            this.Relic2.MouseLeave += new System.EventHandler(this.ClearLabels);
+            // 
+            // RerollLabel
+            // 
+            this.RerollLabel.AutoSize = true;
+            this.RerollLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RerollLabel.ForeColor = System.Drawing.Color.Maroon;
+            this.RerollLabel.Location = new System.Drawing.Point(47, 279);
+            this.RerollLabel.Name = "RerollLabel";
+            this.RerollLabel.Size = new System.Drawing.Size(112, 20);
+            this.RerollLabel.TabIndex = 36;
+            this.RerollLabel.Text = "Rerolls Used";
+            // 
+            // RerollNumber
+            // 
+            this.RerollNumber.AutoSize = true;
+            this.RerollNumber.BackColor = System.Drawing.Color.Transparent;
+            this.RerollNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RerollNumber.ForeColor = System.Drawing.Color.Maroon;
+            this.RerollNumber.Location = new System.Drawing.Point(39, 308);
+            this.RerollNumber.MinimumSize = new System.Drawing.Size(128, 0);
+            this.RerollNumber.Name = "RerollNumber";
+            this.RerollNumber.Size = new System.Drawing.Size(128, 55);
+            this.RerollNumber.TabIndex = 37;
+            this.RerollNumber.Text = "0";
+            this.RerollNumber.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // TextInput
+            // 
+            this.TextInput.BackColor = System.Drawing.Color.White;
+            this.TextInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextInput.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.TextInput.Location = new System.Drawing.Point(747, 71);
+            this.TextInput.MaxLength = 32;
+            this.TextInput.Name = "TextInput";
+            this.TextInput.Size = new System.Drawing.Size(165, 26);
+            this.TextInput.TabIndex = 38;
+            this.TextInput.Text = "God Name";
+            this.TextInput.Click += new System.EventHandler(this.TextInput_Click);
+            this.TextInput.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextInput_KeyPress);
+            // 
+            // StarterItemPicture
+            // 
+            this.StarterItemPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.StarterItemPicture.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.StarterItemPicture.Location = new System.Drawing.Point(370, 420);
+            this.StarterItemPicture.Name = "StarterItemPicture";
+            this.StarterItemPicture.Size = new System.Drawing.Size(92, 92);
+            this.StarterItemPicture.TabIndex = 40;
+            this.StarterItemPicture.TabStop = false;
+            this.StarterItemPicture.Click += new System.EventHandler(this.StarterItemPicture_Click);
+            this.StarterItemPicture.DoubleClick += new System.EventHandler(this.StarterItemPicture_Click);
+            this.StarterItemPicture.MouseEnter += new System.EventHandler(this.StarterItemPicture_Hover);
+            this.StarterItemPicture.MouseLeave += new System.EventHandler(this.ClearLabels);
+            // 
+            // StarterItemLabel
+            // 
+            this.StarterItemLabel.AutoSize = true;
+            this.StarterItemLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StarterItemLabel.ForeColor = System.Drawing.Color.Maroon;
+            this.StarterItemLabel.Location = new System.Drawing.Point(363, 397);
+            this.StarterItemLabel.Name = "StarterItemLabel";
+            this.StarterItemLabel.Size = new System.Drawing.Size(106, 20);
+            this.StarterItemLabel.TabIndex = 41;
+            this.StarterItemLabel.Text = "Starter Item";
+            this.StarterItemLabel.Visible = false;
+            // 
+            // CurrentItemNameLabel
+            // 
+            this.CurrentItemNameLabel.AutoSize = true;
+            this.CurrentItemNameLabel.BackColor = System.Drawing.Color.SkyBlue;
+            this.CurrentItemNameLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.CurrentItemNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CurrentItemNameLabel.Location = new System.Drawing.Point(592, 349);
+            this.CurrentItemNameLabel.MinimumSize = new System.Drawing.Size(285, 25);
+            this.CurrentItemNameLabel.Name = "CurrentItemNameLabel";
+            this.CurrentItemNameLabel.Size = new System.Drawing.Size(285, 27);
+            this.CurrentItemNameLabel.TabIndex = 42;
+            // 
+            // GodLabel
+            // 
+            this.GodLabel.AutoSize = true;
+            this.GodLabel.BackColor = System.Drawing.Color.Transparent;
+            this.GodLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GodLabel.ForeColor = System.Drawing.Color.Black;
+            this.GodLabel.Location = new System.Drawing.Point(191, 189);
+            this.GodLabel.MinimumSize = new System.Drawing.Size(150, 25);
+            this.GodLabel.Name = "GodLabel";
+            this.GodLabel.Size = new System.Drawing.Size(150, 37);
+            this.GodLabel.TabIndex = 43;
+            // 
+            // CreditsButon
+            // 
+            this.CreditsButon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CreditsButon.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CreditsButon.Location = new System.Drawing.Point(39, 622);
+            this.CreditsButon.Name = "CreditsButon";
+            this.CreditsButon.Size = new System.Drawing.Size(75, 23);
+            this.CreditsButon.TabIndex = 44;
+            this.CreditsButon.Text = "Credits";
+            this.CreditsButon.UseVisualStyleBackColor = true;
+            this.CreditsButon.Click += new System.EventHandler(this.CreditsButon_Click);
+            // 
+            // GeneralTextBox
+            // 
+            this.GeneralTextBox.AutoSize = true;
+            this.GeneralTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.GeneralTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GeneralTextBox.Location = new System.Drawing.Point(193, 37);
+            this.GeneralTextBox.MaximumSize = new System.Drawing.Size(300, 300);
+            this.GeneralTextBox.MinimumSize = new System.Drawing.Size(300, 300);
+            this.GeneralTextBox.Name = "GeneralTextBox";
+            this.GeneralTextBox.Size = new System.Drawing.Size(300, 300);
+            this.GeneralTextBox.TabIndex = 46;
+            this.GeneralTextBox.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // WelcomeButton
+            // 
+            this.WelcomeButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.WelcomeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WelcomeButton.Location = new System.Drawing.Point(39, 553);
+            this.WelcomeButton.Name = "WelcomeButton";
+            this.WelcomeButton.Size = new System.Drawing.Size(75, 23);
+            this.WelcomeButton.TabIndex = 47;
+            this.WelcomeButton.Text = "Welcome!";
+            this.WelcomeButton.UseVisualStyleBackColor = true;
+            this.WelcomeButton.Click += new System.EventHandler(this.WelcomeCutton_Click);
+            // 
+            // MageCheckBox
+            // 
+            this.MageCheckBox.AutoSize = true;
+            this.MageCheckBox.BackColor = System.Drawing.Color.SkyBlue;
+            this.MageCheckBox.Checked = true;
+            this.MageCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.MageCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.MageCheckBox.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.MageCheckBox.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.MageCheckBox.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.MageCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MageCheckBox.Location = new System.Drawing.Point(10, 106);
+            this.MageCheckBox.Margin = new System.Windows.Forms.Padding(4);
+            this.MageCheckBox.Name = "MageCheckBox";
+            this.MageCheckBox.Padding = new System.Windows.Forms.Padding(1);
+            this.MageCheckBox.Size = new System.Drawing.Size(59, 19);
+            this.MageCheckBox.TabIndex = 48;
+            this.MageCheckBox.Text = "Mage";
+            this.MageCheckBox.UseVisualStyleBackColor = false;
+            // 
+            // GuardianCheckBox
+            // 
+            this.GuardianCheckBox.AutoSize = true;
+            this.GuardianCheckBox.BackColor = System.Drawing.Color.SkyBlue;
+            this.GuardianCheckBox.Checked = true;
+            this.GuardianCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.GuardianCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GuardianCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GuardianCheckBox.Location = new System.Drawing.Point(10, 77);
+            this.GuardianCheckBox.Margin = new System.Windows.Forms.Padding(4);
+            this.GuardianCheckBox.Name = "GuardianCheckBox";
+            this.GuardianCheckBox.Padding = new System.Windows.Forms.Padding(1);
+            this.GuardianCheckBox.Size = new System.Drawing.Size(87, 21);
+            this.GuardianCheckBox.TabIndex = 49;
+            this.GuardianCheckBox.Text = "Guardian";
+            this.GuardianCheckBox.UseVisualStyleBackColor = false;
+            // 
+            // HunterCheckBox
+            // 
+            this.HunterCheckBox.AutoSize = true;
+            this.HunterCheckBox.BackColor = System.Drawing.Color.SkyBlue;
+            this.HunterCheckBox.Checked = true;
+            this.HunterCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.HunterCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.HunterCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HunterCheckBox.Location = new System.Drawing.Point(120, 77);
+            this.HunterCheckBox.Margin = new System.Windows.Forms.Padding(4);
+            this.HunterCheckBox.Name = "HunterCheckBox";
+            this.HunterCheckBox.Padding = new System.Windows.Forms.Padding(1);
+            this.HunterCheckBox.Size = new System.Drawing.Size(71, 21);
+            this.HunterCheckBox.TabIndex = 50;
+            this.HunterCheckBox.Text = "Hunter";
+            this.HunterCheckBox.UseVisualStyleBackColor = false;
+            // 
+            // WarriorCheckBox
+            // 
+            this.WarriorCheckBox.AutoSize = true;
+            this.WarriorCheckBox.BackColor = System.Drawing.Color.SkyBlue;
+            this.WarriorCheckBox.Checked = true;
+            this.WarriorCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.WarriorCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.WarriorCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WarriorCheckBox.Location = new System.Drawing.Point(121, 133);
+            this.WarriorCheckBox.Margin = new System.Windows.Forms.Padding(4);
+            this.WarriorCheckBox.Name = "WarriorCheckBox";
+            this.WarriorCheckBox.Padding = new System.Windows.Forms.Padding(1);
+            this.WarriorCheckBox.Size = new System.Drawing.Size(75, 21);
+            this.WarriorCheckBox.TabIndex = 51;
+            this.WarriorCheckBox.Text = "Warrior";
+            this.WarriorCheckBox.UseVisualStyleBackColor = false;
+            // 
+            // AssassinCheckBox
+            // 
+            this.AssassinCheckBox.AutoSize = true;
+            this.AssassinCheckBox.BackColor = System.Drawing.Color.SkyBlue;
+            this.AssassinCheckBox.Checked = true;
+            this.AssassinCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.AssassinCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AssassinCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AssassinCheckBox.Location = new System.Drawing.Point(121, 104);
+            this.AssassinCheckBox.Margin = new System.Windows.Forms.Padding(4);
+            this.AssassinCheckBox.Name = "AssassinCheckBox";
+            this.AssassinCheckBox.Padding = new System.Windows.Forms.Padding(1);
+            this.AssassinCheckBox.Size = new System.Drawing.Size(84, 21);
+            this.AssassinCheckBox.TabIndex = 52;
+            this.AssassinCheckBox.Text = "Assassin";
+            this.AssassinCheckBox.UseVisualStyleBackColor = false;
+            // 
+            // DefenseCheckBox
+            // 
+            this.DefenseCheckBox.AutoSize = true;
+            this.DefenseCheckBox.BackColor = System.Drawing.Color.SkyBlue;
+            this.DefenseCheckBox.Checked = true;
+            this.DefenseCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.DefenseCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DefenseCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DefenseCheckBox.Location = new System.Drawing.Point(272, 137);
+            this.DefenseCheckBox.Margin = new System.Windows.Forms.Padding(4);
+            this.DefenseCheckBox.Name = "DefenseCheckBox";
+            this.DefenseCheckBox.Padding = new System.Windows.Forms.Padding(1);
+            this.DefenseCheckBox.Size = new System.Drawing.Size(81, 21);
+            this.DefenseCheckBox.TabIndex = 55;
+            this.DefenseCheckBox.Text = "Defense";
+            this.DefenseCheckBox.UseVisualStyleBackColor = false;
+            // 
+            // HybridCheckBox
+            // 
+            this.HybridCheckBox.AutoSize = true;
+            this.HybridCheckBox.BackColor = System.Drawing.Color.SkyBlue;
+            this.HybridCheckBox.Checked = true;
+            this.HybridCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.HybridCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.HybridCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HybridCheckBox.Location = new System.Drawing.Point(272, 106);
+            this.HybridCheckBox.Margin = new System.Windows.Forms.Padding(4);
+            this.HybridCheckBox.Name = "HybridCheckBox";
+            this.HybridCheckBox.Padding = new System.Windows.Forms.Padding(1);
+            this.HybridCheckBox.Size = new System.Drawing.Size(69, 21);
+            this.HybridCheckBox.TabIndex = 54;
+            this.HybridCheckBox.Text = "Hybrid";
+            this.HybridCheckBox.UseVisualStyleBackColor = false;
+            // 
+            // DamageCheckBox
+            // 
+            this.DamageCheckBox.AutoSize = true;
+            this.DamageCheckBox.BackColor = System.Drawing.Color.SkyBlue;
+            this.DamageCheckBox.Checked = true;
+            this.DamageCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.DamageCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DamageCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DamageCheckBox.Location = new System.Drawing.Point(272, 77);
+            this.DamageCheckBox.Margin = new System.Windows.Forms.Padding(4);
+            this.DamageCheckBox.Name = "DamageCheckBox";
+            this.DamageCheckBox.Padding = new System.Windows.Forms.Padding(1);
+            this.DamageCheckBox.Size = new System.Drawing.Size(82, 21);
+            this.DamageCheckBox.TabIndex = 53;
+            this.DamageCheckBox.Text = "Damage";
+            this.DamageCheckBox.UseVisualStyleBackColor = false;
+            // 
+            // MagicalLabel
+            // 
+            this.MagicalLabel.AutoSize = true;
+            this.MagicalLabel.BackColor = System.Drawing.Color.SkyBlue;
+            this.MagicalLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.MagicalLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.MagicalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MagicalLabel.ForeColor = System.Drawing.Color.Maroon;
+            this.MagicalLabel.Location = new System.Drawing.Point(6, 35);
+            this.MagicalLabel.Name = "MagicalLabel";
+            this.MagicalLabel.Padding = new System.Windows.Forms.Padding(2);
+            this.MagicalLabel.Size = new System.Drawing.Size(76, 26);
+            this.MagicalLabel.TabIndex = 56;
+            this.MagicalLabel.Text = "Magical";
+            this.MagicalLabel.Click += new System.EventHandler(this.MagicalLabel_Click);
+            this.MagicalLabel.DoubleClick += new System.EventHandler(this.MagicalLabel_Click);
+            // 
+            // PhysicalLabel
+            // 
+            this.PhysicalLabel.AutoSize = true;
+            this.PhysicalLabel.BackColor = System.Drawing.Color.SkyBlue;
+            this.PhysicalLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PhysicalLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PhysicalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PhysicalLabel.ForeColor = System.Drawing.Color.Maroon;
+            this.PhysicalLabel.Location = new System.Drawing.Point(117, 36);
+            this.PhysicalLabel.Name = "PhysicalLabel";
+            this.PhysicalLabel.Padding = new System.Windows.Forms.Padding(2);
+            this.PhysicalLabel.Size = new System.Drawing.Size(80, 26);
+            this.PhysicalLabel.TabIndex = 57;
+            this.PhysicalLabel.Text = "Physical";
+            this.PhysicalLabel.Click += new System.EventHandler(this.PhysicalLabel_Click);
+            this.PhysicalLabel.DoubleClick += new System.EventHandler(this.PhysicalLabel_Click);
+            // 
+            // ItemIntensityLabel
+            // 
+            this.ItemIntensityLabel.AutoSize = true;
+            this.ItemIntensityLabel.BackColor = System.Drawing.Color.SkyBlue;
+            this.ItemIntensityLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ItemIntensityLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ItemIntensityLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemIntensityLabel.ForeColor = System.Drawing.Color.Maroon;
+            this.ItemIntensityLabel.Location = new System.Drawing.Point(270, 35);
+            this.ItemIntensityLabel.Name = "ItemIntensityLabel";
+            this.ItemIntensityLabel.Padding = new System.Windows.Forms.Padding(2);
+            this.ItemIntensityLabel.Size = new System.Drawing.Size(94, 26);
+            this.ItemIntensityLabel.TabIndex = 58;
+            this.ItemIntensityLabel.Text = "Item Type";
+            this.ItemIntensityLabel.Click += new System.EventHandler(this.ItemIntensityLabel_Click);
+            this.ItemIntensityLabel.DoubleClick += new System.EventHandler(this.ItemIntensityLabel_Click);
+            // 
+            // ErrorTextBox
+            // 
+            this.ErrorTextBox.AutoSize = true;
+            this.ErrorTextBox.BackColor = System.Drawing.Color.DarkRed;
+            this.ErrorTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ErrorTextBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ErrorTextBox.Font = new System.Drawing.Font("Helonia", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ErrorTextBox.ForeColor = System.Drawing.Color.Gold;
+            this.ErrorTextBox.Location = new System.Drawing.Point(193, 37);
+            this.ErrorTextBox.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
+            this.ErrorTextBox.MaximumSize = new System.Drawing.Size(300, 300);
+            this.ErrorTextBox.MinimumSize = new System.Drawing.Size(300, 300);
+            this.ErrorTextBox.Name = "ErrorTextBox";
+            this.ErrorTextBox.Size = new System.Drawing.Size(300, 300);
+            this.ErrorTextBox.TabIndex = 59;
+            this.ErrorTextBox.Text = "=================\nERROR\n=================\n";
+            this.ErrorTextBox.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.ErrorTextBox.Visible = false;
+            // 
+            // CheckBoxGroup
+            // 
+            this.CheckBoxGroup.BackColor = System.Drawing.Color.Transparent;
+            this.CheckBoxGroup.Controls.Add(this.MagicalLabel);
+            this.CheckBoxGroup.Controls.Add(this.MageCheckBox);
+            this.CheckBoxGroup.Controls.Add(this.ItemIntensityLabel);
+            this.CheckBoxGroup.Controls.Add(this.GuardianCheckBox);
+            this.CheckBoxGroup.Controls.Add(this.PhysicalLabel);
+            this.CheckBoxGroup.Controls.Add(this.HunterCheckBox);
+            this.CheckBoxGroup.Controls.Add(this.WarriorCheckBox);
+            this.CheckBoxGroup.Controls.Add(this.DefenseCheckBox);
+            this.CheckBoxGroup.Controls.Add(this.AssassinCheckBox);
+            this.CheckBoxGroup.Controls.Add(this.HybridCheckBox);
+            this.CheckBoxGroup.Controls.Add(this.DamageCheckBox);
+            this.CheckBoxGroup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CheckBoxGroup.Font = new System.Drawing.Font("Helonia", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CheckBoxGroup.Location = new System.Drawing.Point(508, 121);
+            this.CheckBoxGroup.Name = "CheckBoxGroup";
+            this.CheckBoxGroup.Size = new System.Drawing.Size(424, 188);
+            this.CheckBoxGroup.TabIndex = 60;
+            this.CheckBoxGroup.TabStop = false;
+            this.CheckBoxGroup.Text = "Specify your dankness with these boxes!";
+            // 
+            // HelpButton
+            // 
+            this.HelpButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.HelpButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HelpButton.Location = new System.Drawing.Point(39, 587);
+            this.HelpButton.Name = "HelpButton";
+            this.HelpButton.Size = new System.Drawing.Size(75, 23);
+            this.HelpButton.TabIndex = 61;
+            this.HelpButton.Text = "Help";
+            this.HelpButton.UseVisualStyleBackColor = true;
+            this.HelpButton.Click += new System.EventHandler(this.SpecificsButton_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SkyBlue;
+            this.BackgroundImage = global::DankSmite.Properties.Resources.NewDankSmiteBrackground1;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(944, 681);
+            this.Controls.Add(this.HelpButton);
+            this.Controls.Add(this.CheckBoxGroup);
+            this.Controls.Add(this.ErrorTextBox);
+            this.Controls.Add(this.WelcomeButton);
+            this.Controls.Add(this.GeneralTextBox);
+            this.Controls.Add(this.CreditsButon);
+            this.Controls.Add(this.GodLabel);
+            this.Controls.Add(this.CurrentItemNameLabel);
+            this.Controls.Add(this.StarterItemLabel);
+            this.Controls.Add(this.StarterItemPicture);
+            this.Controls.Add(this.TextInput);
+            this.Controls.Add(this.RerollNumber);
+            this.Controls.Add(this.RerollLabel);
+            this.Controls.Add(this.Relic1);
+            this.Controls.Add(this.Relic2);
+            this.Controls.Add(this.ItemPicture4);
+            this.Controls.Add(this.ItemPicture2);
+            this.Controls.Add(this.ItemPicture5);
+            this.Controls.Add(this.ItemPicture3);
+            this.Controls.Add(this.ItemPicture6);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.GodPicture);
+            this.Controls.Add(this.ItemPicture1);
+            this.Controls.Add(this.RelicLabel1);
+            this.Controls.Add(this.RelicLabel2);
+            this.Controls.Add(this.ItemLabel6);
+            this.Controls.Add(this.ItemLabel5);
+            this.Controls.Add(this.ItemLabel4);
+            this.Controls.Add(this.ItemLabel3);
+            this.Controls.Add(this.ItemLabel2);
+            this.Controls.Add(this.ItemLabel1);
+            this.Controls.Add(this.button1);
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.ForeColor = System.Drawing.Color.DarkRed;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Location = new System.Drawing.Point(500, 150);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(960, 720);
+            this.MinimumSize = new System.Drawing.Size(960, 720);
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Dank Smite";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.GodPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemPicture1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemPicture2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemPicture3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemPicture4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemPicture5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemPicture6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Relic1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Relic2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StarterItemPicture)).EndInit();
+            this.CheckBoxGroup.ResumeLayout(false);
+            this.CheckBoxGroup.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label ItemLabel1;
+        private System.Windows.Forms.Label ItemLabel2;
+        private System.Windows.Forms.Label ItemLabel3;
+        private System.Windows.Forms.Label ItemLabel4;
+        private System.Windows.Forms.Label ItemLabel5;
+        private System.Windows.Forms.Label ItemLabel6;
+        private System.Windows.Forms.Label RelicLabel2;
+        private System.Windows.Forms.Label RelicLabel1;
+        private System.Windows.Forms.PictureBox ItemPicture1;
+        private System.Windows.Forms.PictureBox GodPicture;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.PictureBox ItemPicture6;
+        private System.Windows.Forms.PictureBox ItemPicture3;
+        private System.Windows.Forms.PictureBox ItemPicture5;
+        private System.Windows.Forms.PictureBox ItemPicture2;
+        private System.Windows.Forms.PictureBox ItemPicture4;
+        private System.Windows.Forms.PictureBox Relic2;
+        private System.Windows.Forms.PictureBox Relic1;
+        private System.Windows.Forms.Label RerollLabel;
+        private System.Windows.Forms.Label RerollNumber;
+        private System.Windows.Forms.TextBox TextInput;
+        private System.Windows.Forms.PictureBox StarterItemPicture;
+        private System.Windows.Forms.Label StarterItemLabel;
+        private System.Windows.Forms.Label CurrentItemNameLabel;
+        private System.Windows.Forms.Label GodLabel;
+        private System.Windows.Forms.Button CreditsButon;
+        private System.Windows.Forms.Label GeneralTextBox;
+        private System.Windows.Forms.Button WelcomeButton;
+        private System.Windows.Forms.CheckBox MageCheckBox;
+        private System.Windows.Forms.CheckBox GuardianCheckBox;
+        private System.Windows.Forms.CheckBox HunterCheckBox;
+        private System.Windows.Forms.CheckBox WarriorCheckBox;
+        private System.Windows.Forms.CheckBox AssassinCheckBox;
+        private System.Windows.Forms.CheckBox DefenseCheckBox;
+        private System.Windows.Forms.CheckBox HybridCheckBox;
+        private System.Windows.Forms.CheckBox DamageCheckBox;
+        private System.Windows.Forms.Label MagicalLabel;
+        private System.Windows.Forms.Label PhysicalLabel;
+        private System.Windows.Forms.Label ItemIntensityLabel;
+        private System.Windows.Forms.Label ErrorTextBox;
+        private System.Windows.Forms.GroupBox CheckBoxGroup;
+        private System.Windows.Forms.Button HelpButton;
+    }
+}
+
