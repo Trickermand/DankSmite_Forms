@@ -1,4 +1,0 @@
-C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\GodAndItemController\bin\Debug\GodAndItemController.dll
-C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\GodAndItemController\bin\Debug\GodAndItemController.pdb
-C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\GodAndItemController\obj\Debug\GodAndItemController.dll
-C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\GodAndItemController\obj\Debug\GodAndItemController.pdb

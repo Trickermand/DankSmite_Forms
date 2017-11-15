@@ -1,0 +1,12 @@
+
+====================15-11-2017 VERSION  1.2.4=======================
+*ADDED
+	Added borders to item and gods
+	Introduced Welcome screen
+
+*CHANGED
+	Updated README.txt
+	Relic images
+
+*FIXED
+	

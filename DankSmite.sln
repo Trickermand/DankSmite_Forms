@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DankSmite", "GraphicalWindow\DankSmite.csproj", "{ACE97373-B2A8-48DA-BF38-D52710CB5631}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DankSmite", "DankSmite\DankSmite.csproj", "{ACE97373-B2A8-48DA-BF38-D52710CB5631}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodAndItemController", "GodAndItemController\GodAndItemController.csproj", "{4EDE9B5E-FB98-462C-8C2C-463DE2BE6024}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gaiController", "gaiController\gaiController.csproj", "{4EDE9B5E-FB98-462C-8C2C-463DE2BE6024}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
