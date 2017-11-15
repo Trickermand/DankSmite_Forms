@@ -563,6 +563,26 @@ namespace DankSmite.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DankFrameBlue {
+            get {
+                object obj = ResourceManager.GetObject("DankFrameBlue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DankFrameRed {
+            get {
+                object obj = ResourceManager.GetObject("DankFrameRed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Death_s_Toll {
             get {
                 object obj = ResourceManager.GetObject("Death\'s_Toll", resourceCulture);
@@ -956,6 +976,36 @@ namespace DankSmite.Properties {
         internal static System.Drawing.Bitmap Isis {
             get {
                 object obj = ResourceManager.GetObject("Isis", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ItemFrameDamage {
+            get {
+                object obj = ResourceManager.GetObject("ItemFrameDamage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ItemFrameDefense {
+            get {
+                object obj = ResourceManager.GetObject("ItemFrameDefense", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ItemFrameHybrid {
+            get {
+                object obj = ResourceManager.GetObject("ItemFrameHybrid", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1506,26 +1556,6 @@ namespace DankSmite.Properties {
         internal static System.Drawing.Bitmap Ravana {
             get {
                 object obj = ResourceManager.GetObject("Ravana", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap RealDankFrameBlue {
-            get {
-                object obj = ResourceManager.GetObject("RealDankFrameBlue", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap RealDankFrameRed {
-            get {
-                object obj = ResourceManager.GetObject("RealDankFrameRed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

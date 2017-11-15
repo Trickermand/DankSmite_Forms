@@ -49,8 +49,8 @@ namespace DankSmite
             this.ItemPicture4 = new System.Windows.Forms.PictureBox();
             this.ItemPicture5 = new System.Windows.Forms.PictureBox();
             this.ItemPicture6 = new System.Windows.Forms.PictureBox();
-            this.Relic1 = new System.Windows.Forms.PictureBox();
-            this.Relic2 = new System.Windows.Forms.PictureBox();
+            this.RelicPicture1 = new System.Windows.Forms.PictureBox();
+            this.RelicPicture2 = new System.Windows.Forms.PictureBox();
             this.RerollLabel = new System.Windows.Forms.Label();
             this.RerollNumber = new System.Windows.Forms.Label();
             this.TextInput = new System.Windows.Forms.TextBox();
@@ -72,7 +72,6 @@ namespace DankSmite
             this.MagicalLabel = new System.Windows.Forms.Label();
             this.PhysicalLabel = new System.Windows.Forms.Label();
             this.ItemIntensityLabel = new System.Windows.Forms.Label();
-            this.ErrorTextBox = new System.Windows.Forms.Label();
             this.CheckBoxGroup = new System.Windows.Forms.GroupBox();
             this.HelpButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.GodPicture)).BeginInit();
@@ -82,8 +81,8 @@ namespace DankSmite
             ((System.ComponentModel.ISupportInitialize)(this.ItemPicture4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ItemPicture5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ItemPicture6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Relic1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Relic2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RelicPicture1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RelicPicture2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.StarterItemPicture)).BeginInit();
             this.CheckBoxGroup.SuspendLayout();
             this.SuspendLayout();
@@ -212,7 +211,6 @@ namespace DankSmite
             // 
             // GodPicture
             // 
-            this.GodPicture.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.GodPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.GodPicture.Location = new System.Drawing.Point(39, 144);
             this.GodPicture.Name = "GodPicture";
@@ -224,7 +222,6 @@ namespace DankSmite
             // 
             // ItemPicture1
             // 
-            this.ItemPicture1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ItemPicture1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ItemPicture1.Location = new System.Drawing.Point(567, 420);
             this.ItemPicture1.Name = "ItemPicture1";
@@ -238,7 +235,6 @@ namespace DankSmite
             // 
             // ItemPicture2
             // 
-            this.ItemPicture2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ItemPicture2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ItemPicture2.Location = new System.Drawing.Point(690, 420);
             this.ItemPicture2.Name = "ItemPicture2";
@@ -252,7 +248,6 @@ namespace DankSmite
             // 
             // ItemPicture3
             // 
-            this.ItemPicture3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ItemPicture3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ItemPicture3.Location = new System.Drawing.Point(813, 420);
             this.ItemPicture3.Name = "ItemPicture3";
@@ -266,7 +261,6 @@ namespace DankSmite
             // 
             // ItemPicture4
             // 
-            this.ItemPicture4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ItemPicture4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ItemPicture4.Location = new System.Drawing.Point(567, 553);
             this.ItemPicture4.Name = "ItemPicture4";
@@ -280,7 +274,6 @@ namespace DankSmite
             // 
             // ItemPicture5
             // 
-            this.ItemPicture5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ItemPicture5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ItemPicture5.Location = new System.Drawing.Point(690, 553);
             this.ItemPicture5.Name = "ItemPicture5";
@@ -294,7 +287,6 @@ namespace DankSmite
             // 
             // ItemPicture6
             // 
-            this.ItemPicture6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ItemPicture6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ItemPicture6.Location = new System.Drawing.Point(813, 553);
             this.ItemPicture6.Name = "ItemPicture6";
@@ -306,33 +298,31 @@ namespace DankSmite
             this.ItemPicture6.MouseEnter += new System.EventHandler(this.pictureBox6_Hover);
             this.ItemPicture6.MouseLeave += new System.EventHandler(this.ClearLabels);
             // 
-            // Relic1
+            // RelicPicture1
             // 
-            this.Relic1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Relic1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Relic1.Location = new System.Drawing.Point(310, 553);
-            this.Relic1.Name = "Relic1";
-            this.Relic1.Size = new System.Drawing.Size(92, 92);
-            this.Relic1.TabIndex = 25;
-            this.Relic1.TabStop = false;
-            this.Relic1.Click += new System.EventHandler(this.RelicPicture1_Click);
-            this.Relic1.DoubleClick += new System.EventHandler(this.RelicPicture1_Click);
-            this.Relic1.MouseEnter += new System.EventHandler(this.Relic1_Hover);
-            this.Relic1.MouseLeave += new System.EventHandler(this.ClearLabels);
+            this.RelicPicture1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RelicPicture1.Location = new System.Drawing.Point(310, 553);
+            this.RelicPicture1.Name = "RelicPicture1";
+            this.RelicPicture1.Size = new System.Drawing.Size(92, 92);
+            this.RelicPicture1.TabIndex = 25;
+            this.RelicPicture1.TabStop = false;
+            this.RelicPicture1.Click += new System.EventHandler(this.RelicPicture1_Click);
+            this.RelicPicture1.DoubleClick += new System.EventHandler(this.RelicPicture1_Click);
+            this.RelicPicture1.MouseEnter += new System.EventHandler(this.Relic1_Hover);
+            this.RelicPicture1.MouseLeave += new System.EventHandler(this.ClearLabels);
             // 
-            // Relic2
+            // RelicPicture2
             // 
-            this.Relic2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Relic2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Relic2.Location = new System.Drawing.Point(433, 553);
-            this.Relic2.Name = "Relic2";
-            this.Relic2.Size = new System.Drawing.Size(92, 92);
-            this.Relic2.TabIndex = 24;
-            this.Relic2.TabStop = false;
-            this.Relic2.Click += new System.EventHandler(this.RelicPicture2_Click);
-            this.Relic2.DoubleClick += new System.EventHandler(this.RelicPicture2_Click);
-            this.Relic2.MouseEnter += new System.EventHandler(this.Relic2_Hover);
-            this.Relic2.MouseLeave += new System.EventHandler(this.ClearLabels);
+            this.RelicPicture2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RelicPicture2.Location = new System.Drawing.Point(433, 553);
+            this.RelicPicture2.Name = "RelicPicture2";
+            this.RelicPicture2.Size = new System.Drawing.Size(92, 92);
+            this.RelicPicture2.TabIndex = 24;
+            this.RelicPicture2.TabStop = false;
+            this.RelicPicture2.Click += new System.EventHandler(this.RelicPicture2_Click);
+            this.RelicPicture2.DoubleClick += new System.EventHandler(this.RelicPicture2_Click);
+            this.RelicPicture2.MouseEnter += new System.EventHandler(this.Relic2_Hover);
+            this.RelicPicture2.MouseLeave += new System.EventHandler(this.ClearLabels);
             // 
             // RerollLabel
             // 
@@ -375,7 +365,6 @@ namespace DankSmite
             // 
             // StarterItemPicture
             // 
-            this.StarterItemPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.StarterItemPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.StarterItemPicture.Location = new System.Drawing.Point(370, 420);
             this.StarterItemPicture.Name = "StarterItemPicture";
@@ -458,7 +447,7 @@ namespace DankSmite
             this.WelcomeButton.TabIndex = 47;
             this.WelcomeButton.Text = "Welcome!";
             this.WelcomeButton.UseVisualStyleBackColor = true;
-            this.WelcomeButton.Click += new System.EventHandler(this.WelcomeCutton_Click);
+            this.WelcomeButton.Click += new System.EventHandler(this.WelcomeButton_Click);
             // 
             // MageCheckBox
             // 
@@ -650,25 +639,6 @@ namespace DankSmite
             this.ItemIntensityLabel.Click += new System.EventHandler(this.ItemIntensityLabel_Click);
             this.ItemIntensityLabel.DoubleClick += new System.EventHandler(this.ItemIntensityLabel_Click);
             // 
-            // ErrorTextBox
-            // 
-            this.ErrorTextBox.AutoSize = true;
-            this.ErrorTextBox.BackColor = System.Drawing.Color.DarkRed;
-            this.ErrorTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ErrorTextBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ErrorTextBox.Font = new System.Drawing.Font("Helonia", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ErrorTextBox.ForeColor = System.Drawing.Color.Gold;
-            this.ErrorTextBox.Location = new System.Drawing.Point(193, 37);
-            this.ErrorTextBox.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
-            this.ErrorTextBox.MaximumSize = new System.Drawing.Size(300, 300);
-            this.ErrorTextBox.MinimumSize = new System.Drawing.Size(300, 300);
-            this.ErrorTextBox.Name = "ErrorTextBox";
-            this.ErrorTextBox.Size = new System.Drawing.Size(300, 300);
-            this.ErrorTextBox.TabIndex = 59;
-            this.ErrorTextBox.Text = "=================\nERROR\n=================\n";
-            this.ErrorTextBox.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.ErrorTextBox.Visible = false;
-            // 
             // CheckBoxGroup
             // 
             this.CheckBoxGroup.BackColor = System.Drawing.Color.Transparent;
@@ -714,7 +684,6 @@ namespace DankSmite
             this.ClientSize = new System.Drawing.Size(944, 681);
             this.Controls.Add(this.HelpButton);
             this.Controls.Add(this.CheckBoxGroup);
-            this.Controls.Add(this.ErrorTextBox);
             this.Controls.Add(this.WelcomeButton);
             this.Controls.Add(this.GeneralTextBox);
             this.Controls.Add(this.CreditsButon);
@@ -725,8 +694,8 @@ namespace DankSmite
             this.Controls.Add(this.TextInput);
             this.Controls.Add(this.RerollNumber);
             this.Controls.Add(this.RerollLabel);
-            this.Controls.Add(this.Relic1);
-            this.Controls.Add(this.Relic2);
+            this.Controls.Add(this.RelicPicture1);
+            this.Controls.Add(this.RelicPicture2);
             this.Controls.Add(this.ItemPicture4);
             this.Controls.Add(this.ItemPicture2);
             this.Controls.Add(this.ItemPicture5);
@@ -762,8 +731,8 @@ namespace DankSmite
             ((System.ComponentModel.ISupportInitialize)(this.ItemPicture4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ItemPicture5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ItemPicture6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Relic1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Relic2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RelicPicture1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RelicPicture2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.StarterItemPicture)).EndInit();
             this.CheckBoxGroup.ResumeLayout(false);
             this.CheckBoxGroup.PerformLayout();
@@ -791,8 +760,8 @@ namespace DankSmite
         private System.Windows.Forms.PictureBox ItemPicture5;
         private System.Windows.Forms.PictureBox ItemPicture2;
         private System.Windows.Forms.PictureBox ItemPicture4;
-        private System.Windows.Forms.PictureBox Relic2;
-        private System.Windows.Forms.PictureBox Relic1;
+        private System.Windows.Forms.PictureBox RelicPicture2;
+        private System.Windows.Forms.PictureBox RelicPicture1;
         private System.Windows.Forms.Label RerollLabel;
         private System.Windows.Forms.Label RerollNumber;
         private System.Windows.Forms.TextBox TextInput;
@@ -814,7 +783,6 @@ namespace DankSmite
         private System.Windows.Forms.Label MagicalLabel;
         private System.Windows.Forms.Label PhysicalLabel;
         private System.Windows.Forms.Label ItemIntensityLabel;
-        private System.Windows.Forms.Label ErrorTextBox;
         private System.Windows.Forms.GroupBox CheckBoxGroup;
         private System.Windows.Forms.Button HelpButton;
     }

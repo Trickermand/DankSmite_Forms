@@ -1,7 +1,0 @@
-C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GraphicalWindow\bin\Release\Assemblies\GodAndItemController.dll
-C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GraphicalWindow\bin\Release\Assemblies\GodAndItemController.pdb
-C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GodAndItemController\bin\Release\GodAndItemController.dll
-C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GodAndItemController\bin\Release\GodAndItemController.pdb
-C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GodAndItemController\obj\Release\GodAndItemController.dll
-C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GodAndItemController\obj\Release\GodAndItemController.pdb
-C:\Users\patri\Documents\Visual Studio 2015\Projects\SmiteRandom\GodAndItemController\obj\Release\GodAndItemController.csprojResolveAssemblyReference.cache

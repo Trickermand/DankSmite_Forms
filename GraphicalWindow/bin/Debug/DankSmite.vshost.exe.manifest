@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DankSmite.exe" size="4473352">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DankSmite.exe" size="4474376">
       <assemblyIdentity name="DankSmite" version="1.2.2.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>/YoUzw6HoAD5mQVjlgSNU4tBDDKl5XFxWi3vEg5gjqM=</dsig:DigestValue>
+        <dsig:DigestValue>wSwrGpn/pKdnsp3zqdNU6y0RgtzTA7Exq1YBHnRDZFc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nW4N8nO69gYx+Vxck+UvzW2IuqvdI14hBHmdM/6NOCk=</dsig:DigestValue>
+        <dsig:DigestValue>ci3VnZc3rDmjR7fPB6jBcvHt8uewmkYTe/yEiMpAbS8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

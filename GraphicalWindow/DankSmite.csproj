@@ -795,6 +795,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon300_5.ico" />
+    <None Include="Resources\ItemFrameHybrid.png" />
+    <None Include="Resources\ItemFrameDefense.png" />
+    <None Include="Resources\ItemFrameDamage.png" />
+    <None Include="Resources\DankFrameRed.png" />
+    <None Include="Resources\DankFrameBlue.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

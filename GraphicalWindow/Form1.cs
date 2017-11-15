@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
 using System.Collections.Generic;
+using System.Windows.Forms;
 
 using GodAndItemController;
 using DankSmite.Properties;
@@ -16,8 +17,11 @@ namespace DankSmite
         public Form1()
         {
             InitializeComponent();
-            WelcomeCutton_Click(null, null);
+            WelcomeButton_Click(null, null);
+            this.Text += " " + Assembly.GetExecutingAssembly().GetName().Version.ToString(3);
         }
+
+        
 
         int RerollAmount = 0;
 
@@ -68,8 +72,6 @@ namespace DankSmite
         private void BuildButton(object sender, EventArgs e)
         {
             //Setup for next roll
-            this.ErrorTextBox.Visible = false;
-            this.ErrorTextBox.Text = "=================\nERROR\n=================\n";
             this.GeneralTextBox.Visible = false;
             this.CurrentItemNameLabel.Text = "";
             RerollAmount = 0;
@@ -175,7 +177,7 @@ namespace DankSmite
             if (CredsFlag == false)
             {
                 GeneralTextBox.Text = "Created by: Trickermand, Nazzyc, Kloppermand.\n\nSmite is property of Hi-Rez studio" +
-                                    ". All pictures are created and owned by Hi-Rez Studio";
+                                    ". All pictures are created and owned by Hi-Rez Studio\n\nBorders created by to J. W. Bjerk.";
                 CredsFlag = true;
                 HelpFlag = false;
                 this.GeneralTextBox.Visible = true;
@@ -189,7 +191,7 @@ namespace DankSmite
         }
         
 
-        private void WelcomeCutton_Click(object sender, EventArgs e)
+        private void WelcomeButton_Click(object sender, EventArgs e)
         {
             if (HelpFlag == false)
             {
@@ -216,8 +218,7 @@ namespace DankSmite
             if (clickedRebuild)
             {
                 rerollGod();
-                this.GodPicture.Image = (Image)Resources.ResourceManager.GetObject(_god.name);
-                this.GodLabel.Text = _god.name.Replace('_', ' ');
+                DrawGodPictureBox();
                 RerollAmount++;
                 this.RerollNumber.Text = RerollAmount.ToString();
             }
@@ -225,132 +226,125 @@ namespace DankSmite
 
         private void StarterItemPicture_Click(object sender, EventArgs e)
         {
-            if (clickedRebuild)
-            {
-                rerollItem(8);
-                this.StarterItemPicture.Image = (Image)Resources.ResourceManager.GetObject(_build[8].name);
-                this.CurrentItemNameLabel.Text = Build[8].name.Replace('_', ' ');
-                RerollAmount++;
-                this.RerollNumber.Text = RerollAmount.ToString();
-            }
+            rerollItemWrapper(8, StarterItemPicture);
         }
 
         private void ItemPicture1_Click(object sender, EventArgs e)
         {
-            if (clickedRebuild)
-            {
-                rerollItem(0);
-                this.ItemPicture1.Image = (Image)Resources.ResourceManager.GetObject(Build[0].name);
-                this.CurrentItemNameLabel.Text = Build[0].name.Replace('_', ' ');
-                RerollAmount++;
-                this.RerollNumber.Text = RerollAmount.ToString();
-            }
+            rerollItemWrapper(0, ItemPicture1);
         }
 
         private void ItemPicture2_Click(object sender, EventArgs e)
         {
-            if (clickedRebuild)
-            {
-                rerollItem(1);
-                this.ItemPicture2.Image = (Image)Resources.ResourceManager.GetObject(Build[1].name);
-                this.CurrentItemNameLabel.Text = Build[1].name.Replace('_', ' ');
-                RerollAmount++;
-                this.RerollNumber.Text = RerollAmount.ToString();
-            }
+            rerollItemWrapper(1, ItemPicture2);
         }
 
         private void ItemPicture3_Click(object sender, EventArgs e)
         {
-            if (clickedRebuild)
-            {
-                rerollItem(2);
-                this.ItemPicture3.Image = (Image)Resources.ResourceManager.GetObject(Build[2].name);
-                this.CurrentItemNameLabel.Text = Build[2].name.Replace('_', ' ');
-                RerollAmount++;
-                this.RerollNumber.Text = RerollAmount.ToString();
-            }
+            rerollItemWrapper(2, ItemPicture3);
         }
 
         private void ItemPicture4_Click(object sender, EventArgs e)
         {
-            if (clickedRebuild)
-            {
-                rerollItem(3);
-                this.ItemPicture4.Image = (Image)Resources.ResourceManager.GetObject(Build[3].name);
-                this.CurrentItemNameLabel.Text = Build[3].name.Replace('_', ' ');
-                RerollAmount++;
-                this.RerollNumber.Text = RerollAmount.ToString();
-            }
+            rerollItemWrapper(3, ItemPicture4);
         }
 
         private void ItemPicture5_Click(object sender, EventArgs e)
         {
-            if (clickedRebuild)
-            {
-                rerollItem(4);
-                this.ItemPicture5.Image = (Image)Resources.ResourceManager.GetObject(Build[4].name);
-                this.CurrentItemNameLabel.Text = Build[4].name.Replace('_', ' ');
-                RerollAmount++;
-                this.RerollNumber.Text = RerollAmount.ToString();
-            }
+            rerollItemWrapper(4, ItemPicture5);
         }
 
         private void ItemPicture6_Click(object sender, EventArgs e)
         {
-            if (clickedRebuild)
-            {
-                rerollItem(5);
-                this.ItemPicture6.Image = (Image)Resources.ResourceManager.GetObject(Build[5].name);
-                this.CurrentItemNameLabel.Text = Build[5].name.Replace('_', ' ');
-                RerollAmount++;
-                this.RerollNumber.Text = RerollAmount.ToString();
-            }
+            rerollItemWrapper(5, ItemPicture6);
         }
 
         private void RelicPicture1_Click(object sender, EventArgs e)
         {
+            rerollItemWrapper(6, RelicPicture1);
+        }
+
+        private void RelicPicture2_Click(object sender, EventArgs e)
+        {
+            rerollItemWrapper(7, RelicPicture2);
+        }
+
+        private void rerollItemWrapper(int i, PictureBox pictureBox)
+        {
             if (clickedRebuild)
             {
-                rerollItem(6);
-                this.Relic1.Image = (Image)Resources.ResourceManager.GetObject(Build[6].name);
-                this.CurrentItemNameLabel.Text = Build[6].name.Replace('_', ' ');
+                rerollItem(i);
+                AssignBorder(i, pictureBox);
+                pictureBox.BackgroundImage = (Image)Resources.ResourceManager.GetObject(Build[i].name);
+                this.CurrentItemNameLabel.Text = Build[i].name.Replace('_', ' ');
                 RerollAmount++;
                 this.RerollNumber.Text = RerollAmount.ToString();
             }
         }
 
-        private void RelicPicture2_Click(object sender, EventArgs e)
+        private void AssignBorder(int i, PictureBox pictureBox)
         {
-            if (clickedRebuild)
+            if (i != 6 && i != 7)
             {
-                rerollItem(7);
-                this.Relic2.Image = (Image)Resources.ResourceManager.GetObject(Build[7].name);
-                this.CurrentItemNameLabel.Text = Build[7].name.Replace('_', ' ');
-                RerollAmount++;
-                this.RerollNumber.Text = RerollAmount.ToString();
+                if (Build[i].itemColor.Equals("dmg"))
+                {
+                    pictureBox.Image = (Image)Resources.ResourceManager.GetObject("ItemFrameDamage");
+                }
+                else if (Build[i].itemColor.Equals("hyb"))
+                {
+                    pictureBox.Image = (Image)Resources.ResourceManager.GetObject("ItemFrameHybrid");
+                }
+                else if (Build[i].itemColor.Equals("def"))
+                {
+                    pictureBox.Image = (Image)Resources.ResourceManager.GetObject("ItemFrameDefense");
+                }
             }
         }
+
 
         #endregion
         
         #region DrawingSection
         private void Draw()
         {
-            this.GodPicture.Image = (Image)Resources.ResourceManager.GetObject(_god.name);
-            this.GodLabel.Text = _god.name.Replace("_"," ");
+            DrawGodPictureBox();
+            AssignBorder(0, ItemPicture1);
+            AssignBorder(1, ItemPicture2);
+            AssignBorder(2, ItemPicture3);
+            AssignBorder(3, ItemPicture4);
+            AssignBorder(4, ItemPicture5);
+            AssignBorder(5, ItemPicture6);
+            AssignBorder(8, StarterItemPicture);
+
+
+
             this.RerollNumber.Text = RerollAmount.ToString();
 
-            this.ItemPicture1.Image = (Image)Resources.ResourceManager.GetObject(Build[0].name);
-            this.ItemPicture2.Image = (Image)Resources.ResourceManager.GetObject(Build[1].name);
-            this.ItemPicture3.Image = (Image)Resources.ResourceManager.GetObject(Build[2].name);
-            this.ItemPicture4.Image = (Image)Resources.ResourceManager.GetObject(Build[3].name);
-            this.ItemPicture5.Image = (Image)Resources.ResourceManager.GetObject(Build[4].name);
-            this.ItemPicture6.Image = (Image)Resources.ResourceManager.GetObject(Build[5].name);
+            this.ItemPicture1.BackgroundImage = (Image)Resources.ResourceManager.GetObject(Build[0].name);
+            this.ItemPicture2.BackgroundImage = (Image)Resources.ResourceManager.GetObject(Build[1].name);
+            this.ItemPicture3.BackgroundImage = (Image)Resources.ResourceManager.GetObject(Build[2].name);
+            this.ItemPicture4.BackgroundImage = (Image)Resources.ResourceManager.GetObject(Build[3].name);
+            this.ItemPicture5.BackgroundImage = (Image)Resources.ResourceManager.GetObject(Build[4].name);
+            this.ItemPicture6.BackgroundImage = (Image)Resources.ResourceManager.GetObject(Build[5].name);
 
-            this.Relic1.Image = (Image)Resources.ResourceManager.GetObject(Build[6].name);
-            this.Relic2.Image = (Image)Resources.ResourceManager.GetObject(Build[7].name);
+            this.RelicPicture1.BackgroundImage = (Image)Resources.ResourceManager.GetObject(Build[6].name);
+            this.RelicPicture2.BackgroundImage = (Image)Resources.ResourceManager.GetObject(Build[7].name);
 
-            this.StarterItemPicture.Image = (Image)Resources.ResourceManager.GetObject(Build[8].name);
+            this.StarterItemPicture.BackgroundImage = (Image)Resources.ResourceManager.GetObject(Build[8].name);
+        }
+
+        public void DrawGodPictureBox()
+        {
+            this.GodPicture.BackgroundImage = (Image)Resources.ResourceManager.GetObject(_god.name);
+            if (_god.type.Equals("g") || _god.type.Equals("m"))
+            {
+                this.GodPicture.Image = (Image)Resources.ResourceManager.GetObject("DankFrameBlue");
+            }
+            else
+            {
+                this.GodPicture.Image = (Image)Resources.ResourceManager.GetObject("DankFrameRed");
+            }
+            this.GodLabel.Text = _god.name.Replace("_", " ");
         }
         
         private void pictureBox1_Hover(object sender, EventArgs e)
