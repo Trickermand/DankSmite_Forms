@@ -7,8 +7,8 @@
     <ProjectGuid>{4EDE9B5E-FB98-462C-8C2C-463DE2BE6024}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GodAndItemController</RootNamespace>
-    <AssemblyName>GodAndItemController</AssemblyName>
+    <RootNamespace>gaiController</RootNamespace>
+    <AssemblyName>gaiController</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

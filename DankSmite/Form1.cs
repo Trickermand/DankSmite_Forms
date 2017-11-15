@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Drawing;
-using System.Threading;
 using System.Windows.Forms;
 using System.Collections.Generic;
 
 using gaiController;
-using DankSmite.Properties;
 using System.Reflection;
+using DankSmite.Properties;
 
 namespace DankSmite
 {
@@ -19,16 +18,13 @@ namespace DankSmite
             WelcomeButton_Click(null, null);
             this.Text += " " + Assembly.GetExecutingAssembly().GetName().Version.ToString(2);
         }
-
         
-
         int RerollAmount = 0;
 
         public bool CredsFlag = false;
         public bool WelcomeFlag = false;
         public bool DetailsFlag = false;
-
-
+        
 
         static Item[] _build = new Item[9] {
             new Item("null","null",false, false, false),
@@ -67,8 +63,26 @@ namespace DankSmite
         public bool first = true;
         public bool clickedRebuild = false;
 
-        
+        private void TextInput_KeyPress(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Return)
+            {
+                BuildButton(null, null);
+                e.SuppressKeyPress = true;
+            }
+        }
 
+        private void TextInput_Click(object sender, EventArgs e)
+        {
+            if (first)
+            {
+                this.TextInput.Text = "";
+                this.TextInput.ForeColor = System.Drawing.SystemColors.ControlText;
+                first = false;                   
+            }
+        }
+
+        #region Build button
         private void BuildButton(object sender, EventArgs e)
         {
             //Setup for next roll
@@ -222,16 +236,8 @@ namespace DankSmite
             Draw();
 
         }
-
-        private void TextInput_KeyPress(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Return)
-            {
-                BuildButton(null, null);
-                e.SuppressKeyPress = true;
-            }
-        }
-
+        #endregion
+        
         #region HelpAndCredits
         private void CreditsButon_Click(object sender, EventArgs e)
         {
@@ -392,16 +398,6 @@ namespace DankSmite
         }
         #endregion
 
-        private void TextInput_Click(object sender, EventArgs e)
-        {
-            if (first)
-            {
-                this.TextInput.Text = "";
-                this.TextInput.ForeColor = System.Drawing.SystemColors.ControlText;
-                first = false;                   
-            }
-        }
-
         //==================================DRAW=====================================//
         #region DrawingSection
         private void Draw()
@@ -507,6 +503,55 @@ namespace DankSmite
 
         #endregion
         
+
+        #region MajorLabels
+        private void ItemIntensityLabel_Click(object sender, EventArgs e)
+        {
+            if (!this.DamageCheckBox.Checked || !this.HybridCheckBox.Checked || !this.DefenseCheckBox.Checked)
+            {
+                this.DamageCheckBox.Checked = true;
+                this.HybridCheckBox.Checked = true;
+                this.DefenseCheckBox.Checked = true;
+            }
+            else
+            {
+                this.DamageCheckBox.Checked = false;
+                this.HybridCheckBox.Checked = false;
+                this.DefenseCheckBox.Checked = false;
+            }
+        }
+
+        private void PhysicalLabel_Click(object sender, EventArgs e)
+        {
+            if (!this.WarriorCheckBox.Checked || !this.HunterCheckBox.Checked || !this.AssassinCheckBox.Checked)
+            {
+                this.WarriorCheckBox.Checked = true;
+                this.HunterCheckBox.Checked = true;
+                this.AssassinCheckBox.Checked = true;
+            }
+            else
+            {
+                this.HunterCheckBox.Checked = false;
+                this.WarriorCheckBox.Checked = false;
+                this.AssassinCheckBox.Checked = false;
+            }
+        }
+
+        private void MagicalLabel_Click(object sender, EventArgs e)
+        {
+            if (!this.GuardianCheckBox.Checked || !this.MageCheckBox.Checked)
+            {
+                this.GuardianCheckBox.Checked = true;
+                this.MageCheckBox.Checked = true;
+            }
+            else
+            {
+                this.GuardianCheckBox.Checked = false;
+                this.MageCheckBox.Checked = false;
+            }
+        }
+        #endregion
+
 
         #region BodySection
 
@@ -729,57 +774,7 @@ namespace DankSmite
         }
 
         #endregion
-
-
-        #region MajorLabels
-        private void ItemIntensityLabel_Click(object sender, EventArgs e)
-        {
-            if (!this.DamageCheckBox.Checked || !this.HybridCheckBox.Checked || !this.DefenseCheckBox.Checked)
-            {
-                this.DamageCheckBox.Checked = true;
-                this.HybridCheckBox.Checked = true;
-                this.DefenseCheckBox.Checked = true;
-            }
-            else
-            {
-                this.DamageCheckBox.Checked = false;
-                this.HybridCheckBox.Checked = false;
-                this.DefenseCheckBox.Checked = false;
-            }
-        }
-
-        private void PhysicalLabel_Click(object sender, EventArgs e)
-        {
-            if (!this.WarriorCheckBox.Checked || !this.HunterCheckBox.Checked || !this.AssassinCheckBox.Checked)
-            {
-                this.WarriorCheckBox.Checked = true;
-                this.HunterCheckBox.Checked = true;
-                this.AssassinCheckBox.Checked = true;
-            }
-            else
-            {
-                this.HunterCheckBox.Checked = false;
-                this.WarriorCheckBox.Checked = false;
-                this.AssassinCheckBox.Checked = false;
-            }
-        }
-
-        private void MagicalLabel_Click(object sender, EventArgs e)
-        {
-            if (!this.GuardianCheckBox.Checked || !this.MageCheckBox.Checked)
-            {
-                this.GuardianCheckBox.Checked = true;
-                this.MageCheckBox.Checked = true;
-            }
-            else
-            {
-                this.GuardianCheckBox.Checked = false;
-                this.MageCheckBox.Checked = false;
-            }
-        }
-        #endregion
-
-
+        
 
     }
 }

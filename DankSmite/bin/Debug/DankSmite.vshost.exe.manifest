@@ -4,7 +4,7 @@
   <description asmv2:iconFile="icon300_5.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="DankSmite" version="1.4.6528.41985" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="DankSmite" version="1.4.6528.42682" language="neutral" processorArchitecture="msil" />
     <commandLine file="DankSmite.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -44,25 +44,25 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DankSmite.exe" size="6244360">
-      <assemblyIdentity name="DankSmite" version="1.4.6528.41985" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="DankSmite" version="1.4.6528.42682" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>IXObmI12etYbFk9ojorrEfuvtknpNz5J/E4/fv0K8rY=</dsig:DigestValue>
+        <dsig:DigestValue>+8vPqfCVMUy7GArXnVfdt2KiTCKDlgTomNuT4/DOVA0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GodAndItemController.dll" size="18944">
-      <assemblyIdentity name="GodAndItemController" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="gaiController.dll" size="18944">
+      <assemblyIdentity name="gaiController" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>891Bk0ynbg62js5LRAPOEVUGFfqFa4VUNcjNnqVCOkQ=</dsig:DigestValue>
+        <dsig:DigestValue>Fua69MC38RouohDYzXwksNBvp3aRTKKmoJAxCHcY6M8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
