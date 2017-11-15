@@ -163,11 +163,10 @@ namespace gaiController
             //"dmg", "hyb", "def", damage, hybrid, defense
 
             //
-            //NORMAL ITEMS
+            //=============================NORMAL ITEMS=============================//
             //
 
-
-            //Physical only
+            //=============================Physical only=============================//
             allItems.Add(new Item("Gladiator's_Shield", "hyb", false, true, false));
             allItems.Add(new Item("Shifter's_Shield", "hyb", false, true, false));
             allItems.Add(new Item("Void_Shield", "hyb", false, true, false));
@@ -207,15 +206,13 @@ namespace gaiController
             allItems.Add(new Item("Malice", "dmg", false, true, false));
             allItems.Add(new Item("Deathbringer", "dmg", false, true, false));
 
-
-            //Katanas
+            //=============================Katanas=============================//
             allItems.Add(new Item("Heartseeker", "dmg", false, true, true));
             allItems.Add(new Item("Masamune", "dmg", false, true, true));
             allItems.Add(new Item("Stone_Cutting_Sword", "dmg", false, true, true));
             allItems.Add(new Item("Hastened_Katana", "dmg", false, true, true));
 
-
-            //Neutral items. Magical and physical alike!
+            //=============================Neutral items=============================//
             allItems.Add(new Item("Relic_Dagger", "hyb", true, true, false));
             allItems.Add(new Item("Winged_Blade", "hyb", true, true, false));
             allItems.Add(new Item("Witchblade", "hyb", true, true, false));
@@ -248,8 +245,7 @@ namespace gaiController
             allItems.Add(new Item("Hide_of_the_Nemean_Lion", "def", true, true, false));
             allItems.Add(new Item("Breastplate_of_Valor", "def", true, true, false));
 
-
-            //Magical only
+            //=============================Magical only=============================//
             allItems.Add(new Item("Dynasty_Plate_Helm", "hyb", true, false, false));
             allItems.Add(new Item("Celestial_Legion_Helm", "hyb", true, false, false));
             allItems.Add(new Item("Lotus_Crown", "hyb", true, false, false));
@@ -286,43 +282,33 @@ namespace gaiController
             allItems.Add(new Item("Book_of_Thoth", "dmg", true, false, false));
             allItems.Add(new Item("Soul_Reaver", "dmg", true, false, false));
 
-
             //
-            //BOOTS
+            //=============================BOOTS=============================//
             //
-
-
+            
             //Physical
             allBoots.Add(new Item("Warrior_Tabi", "dmg", false, true, false));
             allBoots.Add(new Item("Ninja_Tabi", "dmg", false, true, false));
             allBoots.Add(new Item("Talaria_Boots", "hyb", false, true, false));
             allBoots.Add(new Item("Reinforced_Greaves", "def", false, true, false));
-
-
             //Magical
             allBoots.Add(new Item("Shoes_of_the_Magi", "dmg", true, false, false));
             allBoots.Add(new Item("Shoes_of_Focus", "dmg", true, false, false));
             allBoots.Add(new Item("Traveler's_Shoes", "hyb", true, false, false));
             allBoots.Add(new Item("Reinforced_Shoes", "def", true, false, false));
-
-
+            
             //
-            //STARTER ITEMS
+            //=============================STARTER ITEMS=============================//
             //
-
 
             //Physical
             allStarters.Add(new Item("Bluestone_Pendant", "dmg", false, true, false));
             allStarters.Add(new Item("Death's_Toll", "dmg", false, true, false));
             allStarters.Add(new Item("War_Flag", "dmg", false, true, false));
-
-
             //Magical
             allStarters.Add(new Item("Sands_Of_Time", "dmg", true, false, false));
             allStarters.Add(new Item("Soul_Stone", "dmg", true, false, false));
             allStarters.Add(new Item("Vampiric_Shroud", "dmg", true, false, false));
-
-
             //Neutral
             allStarters.Add(new Item("Bumba's_Mask", "dmg", true, true, false));
             allStarters.Add(new Item("Lono's_Mask", "def", true, true, false));
@@ -331,24 +317,20 @@ namespace gaiController
             allStarters.Add(new Item("Swift_Wing", "hyb", true, true, false));
             allStarters.Add(new Item("Watcher's_Gift", "hyb", true, true, false));
 
-
             //
-            //RELICS
+            //=============================RELICS=============================//
             //
-
 
             //dmg
             allRelics.Add(new Item("Belt_of_Frenzy", "dmg", true, true, false));
             allRelics.Add(new Item("Cursed_Ankh", "dmg", true, true, false));
             allRelics.Add(new Item("Sundering_Spear", "dmg", true, true, false));
-            
             //hyb
             allRelics.Add(new Item("Blink_Rune", "hyb", true, true, false));
             allRelics.Add(new Item("Hand_of_the_Gods", "hyb", true, true, false));
             allRelics.Add(new Item("Heavenly_Wings", "hyb", true, true, false));
             allRelics.Add(new Item("Horrific_Emblem", "hyb", true, true, false));
             allRelics.Add(new Item("Teleport_Glyph", "hyb", true, true, false));
-            
             //def
             allRelics.Add(new Item("Aegis_Amulet", "def", true, true, false));
             allRelics.Add(new Item("Bracer_of_Undoing", "def", true, true, false));

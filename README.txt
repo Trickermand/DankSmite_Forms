@@ -1,5 +1,8 @@
 # DankSmite
 
+Created by: Trickermand and Nazzyc
+With special thanks to: Klopper
+
 Item borders by J. W. Bjerk
 https://opengameart.org/content/painterly-spell-icons-part-3
 

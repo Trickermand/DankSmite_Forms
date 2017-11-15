@@ -1,5 +1,19 @@
+====================15-11-2017 VERSION  1.4=======================
+*ADDED
+	
 
-====================15-11-2017 VERSION  1.2.4=======================
+*CHANGED
+	
+
+*FIXED
+	Fixed God border being grainy
+
+
+
+
+
+
+====================15-11-2017 VERSION  1.3=======================
 *ADDED
 	Added borders to item and gods
 	Introduced Welcome screen

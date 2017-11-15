@@ -79,8 +79,80 @@ namespace DankSmite
             WelcomeFlag = false;
             DetailsFlag = false;
 
+            //Some dankness
+            #region Dank
+            if (this.TextInput.Text == "op")
+            {
+
+                _god = new God("Ymir", "g");
+                for (int i = 0; i < 6; i++)
+                {
+                    Build[i] = new Item("Deathbringer", "dmg", false, true, false);
+                }
+                Build[6] = new Item("Blink_Rune", "dmg", true, true, false);
+                Build[7] = new Item("Blink_Rune", "dmg", true, true, false);
+                Build[8] = new Item("Deathbringer", "dmg", false, true, false);
+
+                legalBoots = itemCol.retrieveLegalBoots(true, true, true, God.type);
+                legalItems = itemCol.retrieveLegalItems(true, true, true, God.type);
+                legalRelics = itemCol.retrieveLegalRelics(true, true, true, God.type);
+                legalStarters = itemCol.retrieveLegalStarters(true, true, true, God.type);
+            }
+            else if (this.TextInput.Text.ToLower() == "trickermand")
+            {
+                _god = new God("Ymir", "g");
+                for (int i = 0; i < 6; i++)
+                {
+                    Build[i] = new Item("Hide_of_the_Urchin", "def", true, true, false);
+                }
+                Build[6] = new Item("Blink_Rune", "dmg", true, true, false);
+                Build[7] = new Item("Blink_Rune", "dmg", true, true, false);
+                Build[8] = new Item("Deathbringer", "dmg", false, true, false);
+
+                legalBoots = itemCol.retrieveLegalBoots(true, true, true, God.type);
+                legalItems = itemCol.retrieveLegalItems(true, true, true, God.type);
+                legalRelics = itemCol.retrieveLegalRelics(true, true, true, God.type);
+                legalStarters = itemCol.retrieveLegalStarters(true, true, true, God.type);
+            }
+            else if (this.TextInput.Text.ToLower() == "nazzyc")
+            {
+                _god = new God("Medusa", "h");
+                for (int i = 0; i < 6; i++)
+                {
+                    Build[i] = new Item("Odysseus'_Bow", "dmg", false, true, false);
+                }
+                Build[6] = new Item("Bracer_of_Undoing", "def", true, true, false);
+                Build[7] = new Item("Bracer_of_Undoing", "def", true, true, false);
+                Build[8] = new Item("Odysseus'_Bow", "dmg", false, true, false);
+
+                legalBoots = itemCol.retrieveLegalBoots(true, true, true, God.type);
+                legalItems = itemCol.retrieveLegalItems(true, true, true, God.type);
+                legalRelics = itemCol.retrieveLegalRelics(true, true, true, God.type);
+                legalStarters = itemCol.retrieveLegalStarters(true, true, true, God.type);
+            }
+            else if (this.TextInput.Text.ToLower() == "kloppermand")
+            {
+                _god = new God("Ares", "g");
+
+                Build[0] = new Item("Shoes_of_the_Magi", "dmg", true, false, false);
+                Build[1] = new Item("Void_Stone", "hyb", true, false, false);
+                Build[2] = new Item("Mystical_Mail", "def", true, true, false);
+                Build[3] = new Item("Hide_of_the_Urchin", "def", true, true, false);
+                Build[4] = new Item("Obsidian_Shard", "dmg", true, false, false);
+                Build[5] = new Item("Rod_of_Tahuti", "dmg", true, false, false);
+
+                Build[6] = new Item("Blink_Rune", "hyb", true, true, false);
+                Build[7] = new Item("Shield_of_Thorns", "def", true, true, false);
+                Build[8] = new Item("Mark_of_the_Vanguard", "def", true, true, false);
+
+                legalBoots = itemCol.retrieveLegalBoots(true, true, true, God.type);
+                legalItems = itemCol.retrieveLegalItems(true, true, true, God.type);
+                legalRelics = itemCol.retrieveLegalRelics(true, true, true, God.type);
+                legalStarters = itemCol.retrieveLegalStarters(true, true, true, God.type);
+            }
+            #endregion
             //Validation of proper input
-            if (!((this.AssassinCheckBox.Checked == false
+            else if (!((this.AssassinCheckBox.Checked == false
                 && this.GuardianCheckBox.Checked == false
                 && this.HunterCheckBox.Checked == false
                 && this.MageCheckBox.Checked == false
@@ -101,10 +173,7 @@ namespace DankSmite
                 this.ItemLabel6.Visible = true;
                 clickedRebuild = true;
 
-
-
-
-                //Some dankness
+                
 
 
                 if (string.IsNullOrEmpty(this.TextInput.Text))
@@ -120,75 +189,6 @@ namespace DankSmite
                     this.DefenseCheckBox.Checked
                     );
                 }
-                else if (this.TextInput.Text == "op")
-                {
-
-                    _god = new God("Ymir", "g");
-                    for (int i = 0; i < 6; i++)
-                    {
-                        Build[i] = new Item("Deathbringer", "dmg", false, true, false);
-                    }
-                    Build[6] = new Item("Blink_Rune", "dmg", true, true, false);
-                    Build[7] = new Item("Blink_Rune", "dmg", true, true, false);
-                    Build[8] = new Item("Deathbringer", "dmg", false, true, false);
-
-                    legalBoots = itemCol.retrieveLegalBoots(true, true, true, God.type);
-                    legalItems = itemCol.retrieveLegalItems(true, true, true, God.type);
-                    legalRelics = itemCol.retrieveLegalRelics(true, true, true, God.type);
-                    legalStarters = itemCol.retrieveLegalStarters(true, true, true, God.type);
-                }
-                else if (this.TextInput.Text.ToLower() == "trickermand")
-                {
-                    _god = new God("Ymir", "g");
-                    for (int i = 0; i < 6; i++)
-                    {
-                        Build[i] = new Item("Hide_of_the_Urchin", "def", true, true, false);
-                    }
-                    Build[6] = new Item("Blink_Rune", "dmg", true, true, false);
-                    Build[7] = new Item("Blink_Rune", "dmg", true, true, false);
-                    Build[8] = new Item("Deathbringer", "dmg", false, true, false);
-
-                    legalBoots = itemCol.retrieveLegalBoots(true, true, true, God.type);
-                    legalItems = itemCol.retrieveLegalItems(true, true, true, God.type);
-                    legalRelics = itemCol.retrieveLegalRelics(true, true, true, God.type);
-                    legalStarters = itemCol.retrieveLegalStarters(true, true, true, God.type);
-                }
-                else if (this.TextInput.Text.ToLower() == "nazzyc")
-                {
-                    _god = new God("Medusa", "h");
-                    for (int i = 0; i < 6; i++)
-                    {
-                        Build[i] = new Item("Odysseus'_Bow", "dmg", false, true, false);
-                    }
-                    Build[6] = new Item("Bracer_of_Undoing", "def", true, true, false);
-                    Build[7] = new Item("Bracer_of_Undoing", "def", true, true, false);
-                    Build[8] = new Item("Odysseus'_Bow", "dmg", false, true, false);
-
-                    legalBoots = itemCol.retrieveLegalBoots(true, true, true, God.type);
-                    legalItems = itemCol.retrieveLegalItems(true, true, true, God.type);
-                    legalRelics = itemCol.retrieveLegalRelics(true, true, true, God.type);
-                    legalStarters = itemCol.retrieveLegalStarters(true, true, true, God.type);
-                }
-                else if (this.TextInput.Text.ToLower() == "kloppermand")
-                {
-                    _god = new God("Ares", "g");
-
-                    Build[0] = new Item("Shoes_of_the_Magi", "dmg", true, false, false);
-                    Build[1] = new Item("Void_Stone", "hyb", true, false, false);
-                    Build[2] = new Item("Mystical_Mail", "def", true, true, false);
-                    Build[3] = new Item("Hide_of_the_Urchin", "def", true, true, false);
-                    Build[4] = new Item("Obsidian_Shard", "dmg", true, false, false);
-                    Build[5] = new Item("Rod_of_Tahuti", "dmg", true, false, false);
-
-                    Build[6] = new Item("Blink_Rune", "hyb", true, true, false);
-                    Build[7] = new Item("Shield_of_Thorns", "def", true, true, false);
-                    Build[8] = new Item("Mark_of_the_Vanguard", "def", true, true, false);
-
-                    legalBoots = itemCol.retrieveLegalBoots(true, true, true, God.type);
-                    legalItems = itemCol.retrieveLegalItems(true, true, true, God.type);
-                    legalRelics = itemCol.retrieveLegalRelics(true, true, true, God.type);
-                    legalStarters = itemCol.retrieveLegalStarters(true, true, true, God.type);
-                }
                 else
                 {
                     fullRebuild(
@@ -198,7 +198,9 @@ namespace DankSmite
                     this.DefenseCheckBox.Checked
                     );
                 }
-                Draw();
+
+
+                
             }
             else
             {
@@ -210,8 +212,14 @@ namespace DankSmite
                 Build[6] = new Item("Blink_Rune", "dmg", true, true, false);
                 Build[7] = new Item("Blink_Rune", "dmg", true, true, false);
                 Build[8] = new Item("Deathbringer", "dmg", false, true, false);
-                Draw();
+
+                legalBoots = itemCol.retrieveLegalBoots(true, true, true, God.type);
+                legalItems = itemCol.retrieveLegalItems(true, true, true, God.type);
+                legalRelics = itemCol.retrieveLegalRelics(true, true, true, God.type);
+                legalStarters = itemCol.retrieveLegalStarters(true, true, true, God.type);
             }
+
+            Draw();
 
         }
 
@@ -223,12 +231,6 @@ namespace DankSmite
                 e.SuppressKeyPress = true;
             }
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
-        }
-
 
         #region HelpAndCredits
         private void CreditsButon_Click(object sender, EventArgs e)
@@ -388,9 +390,18 @@ namespace DankSmite
                 pictureBox.Image = (Image)Resources.ResourceManager.GetObject("ItemFrameNeutral");
             }
         }
-
-
         #endregion
+
+        private void TextInput_Click(object sender, EventArgs e)
+        {
+            if (first)
+            {
+                this.TextInput.Text = "";
+                this.TextInput.ForeColor = System.Drawing.SystemColors.ControlText;
+                first = false;                   
+            }
+        }
+
         //==================================DRAW=====================================//
         #region DrawingSection
         private void Draw()
@@ -495,17 +506,7 @@ namespace DankSmite
 
 
         #endregion
-
-        private void TextInput_Click(object sender, EventArgs e)
-        {
-            if (first)
-            {
-                this.TextInput.Text = "";
-                this.TextInput.ForeColor = System.Drawing.SystemColors.ControlText;
-                first = false;                   
-            }
-        }
-
+        
 
         #region BodySection
 

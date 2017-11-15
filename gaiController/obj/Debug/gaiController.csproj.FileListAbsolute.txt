@@ -2,3 +2,4 @@ C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\gaiController\bin
 C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\gaiController\bin\Debug\GodAndItemController.pdb
 C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\gaiController\obj\Debug\GodAndItemController.dll
 C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\gaiController\obj\Debug\GodAndItemController.pdb
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\gaiController\obj\Debug\gaiController.csprojResolveAssemblyReference.cache

@@ -723,7 +723,7 @@ namespace DankSmite
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dank Smite";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            //this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.GodPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ItemPicture1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ItemPicture2)).EndInit();
