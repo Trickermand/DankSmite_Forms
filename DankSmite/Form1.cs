@@ -26,7 +26,7 @@ namespace DankSmite
 
         public bool CredsFlag = false;
         public bool WelcomeFlag = false;
-        public bool HelpFlag = false;
+        public bool DetailsFlag = false;
 
 
 
@@ -77,7 +77,7 @@ namespace DankSmite
             RerollAmount = 0;
             CredsFlag = false;
             WelcomeFlag = false;
-            HelpFlag = false;
+            DetailsFlag = false;
 
             //Validation of proper input
             if (!((this.AssassinCheckBox.Checked == false
@@ -239,14 +239,14 @@ namespace DankSmite
                                     ". All pictures are created and owned by Hi-Rez Studio\n\nBorders created by to J. W. Bjerk.";
                 CredsFlag = true;
                 WelcomeFlag = false;
-                HelpFlag = false;
+                DetailsFlag = false;
                 this.GeneralTextBox.Visible = true;
             }
             else
             {
                 CredsFlag = false;
                 WelcomeFlag = false;
-                HelpFlag = false;
+                DetailsFlag = false;
                 this.GeneralTextBox.Visible = false;
             }
         }
@@ -256,38 +256,38 @@ namespace DankSmite
         {
             if (WelcomeFlag == false)
             {
-                GeneralTextBox.Text = "Welcome to DankSmite!\nClick the Get Me A Build button to get a god and a build! C" +
+                GeneralTextBox.Text = "Welcome to DankSmite!\nClick the Build button to get a god and a build! C" +
                                     "lick the pictures to reroll them, should you want to do so!\n\n\nWorks for smite ve" +
                                     "rsion: 4.21\nDanksmite version: " + Assembly.GetExecutingAssembly().GetName().Version.ToString(2);
                 CredsFlag = false;
                 WelcomeFlag = true;
-                HelpFlag = false;
+                DetailsFlag = false;
                 this.GeneralTextBox.Visible = true;
             }
             else
             {
                 CredsFlag = false;
                 WelcomeFlag = false;
-                HelpFlag = false;
+                DetailsFlag = false;
                 this.GeneralTextBox.Visible = false;
             }
         }
 
-        private void HelpButton_Click(object sender, EventArgs e)
+        private void DetailsButton_Click(object sender, EventArgs e)
         {
-            if (HelpFlag == false)
+            if (DetailsFlag == false)
             {
                 GeneralTextBox.Text = "Version of DankSmite is " + Assembly.GetExecutingAssembly().GetName().Version.ToString(4);
                 CredsFlag = false;
                 WelcomeFlag = false;
-                HelpFlag = true;
+                DetailsFlag = true;
                 this.GeneralTextBox.Visible = true;
             }
             else
             {
                 CredsFlag = false;
                 WelcomeFlag = false;
-                HelpFlag = false;
+                DetailsFlag = false;
                 this.GeneralTextBox.Visible = false;
             }
         }

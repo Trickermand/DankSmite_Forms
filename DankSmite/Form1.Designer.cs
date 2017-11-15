@@ -73,7 +73,7 @@ namespace DankSmite
             this.PhysicalLabel = new System.Windows.Forms.Label();
             this.ItemIntensityLabel = new System.Windows.Forms.Label();
             this.CheckBoxGroup = new System.Windows.Forms.GroupBox();
-            this.HelpButton = new System.Windows.Forms.Button();
+            this.DetailsButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.GodPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ItemPicture1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ItemPicture2)).BeginInit();
@@ -97,7 +97,7 @@ namespace DankSmite
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(192, 46);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Get Me A Build!";
+            this.button1.Text = "Build!";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.BuildButton);
             // 
@@ -662,17 +662,17 @@ namespace DankSmite
             this.CheckBoxGroup.TabStop = false;
             this.CheckBoxGroup.Text = "Specify your dankness with these boxes!";
             // 
-            // HelpButton
+            // DetailsButton
             // 
-            this.HelpButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.HelpButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HelpButton.Location = new System.Drawing.Point(39, 587);
-            this.HelpButton.Name = "HelpButton";
-            this.HelpButton.Size = new System.Drawing.Size(75, 23);
-            this.HelpButton.TabIndex = 61;
-            this.HelpButton.Text = "Help";
-            this.HelpButton.UseVisualStyleBackColor = true;
-            this.HelpButton.Click += new System.EventHandler(this.HelpButton_Click);
+            this.DetailsButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DetailsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DetailsButton.Location = new System.Drawing.Point(39, 587);
+            this.DetailsButton.Name = "DetailsButton";
+            this.DetailsButton.Size = new System.Drawing.Size(75, 23);
+            this.DetailsButton.TabIndex = 61;
+            this.DetailsButton.Text = "Details";
+            this.DetailsButton.UseVisualStyleBackColor = true;
+            this.DetailsButton.Click += new System.EventHandler(this.DetailsButton_Click);
             // 
             // Form1
             // 
@@ -682,7 +682,7 @@ namespace DankSmite
             this.BackgroundImage = global::DankSmite.Properties.Resources.NewDankSmiteBrackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(944, 681);
-            this.Controls.Add(this.HelpButton);
+            this.Controls.Add(this.DetailsButton);
             this.Controls.Add(this.CheckBoxGroup);
             this.Controls.Add(this.WelcomeButton);
             this.Controls.Add(this.GeneralTextBox);
@@ -784,7 +784,7 @@ namespace DankSmite
         private System.Windows.Forms.Label PhysicalLabel;
         private System.Windows.Forms.Label ItemIntensityLabel;
         private System.Windows.Forms.GroupBox CheckBoxGroup;
-        private System.Windows.Forms.Button HelpButton;
+        private System.Windows.Forms.Button DetailsButton;
     }
 }
 

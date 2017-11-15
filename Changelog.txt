@@ -3,10 +3,15 @@
 *ADDED
 	Added borders to item and gods
 	Introduced Welcome screen
+	Added Discordia
+	Added Details button
 
 *CHANGED
 	Updated README.txt
-	Relic images
+	Updated relic images
+	Updated item images
+	Removed Help Button (In favor of Welcome Button)
 
 *FIXED
+
 	
