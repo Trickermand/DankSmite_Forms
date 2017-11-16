@@ -203,6 +203,16 @@ namespace DankSmite.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AresSucks {
+            get {
+                object obj = ResourceManager.GetObject("AresSucks", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap artemis {
             get {
                 object obj = ResourceManager.GetObject("artemis", resourceCulture);
@@ -306,6 +316,16 @@ namespace DankSmite.Properties {
         internal static System.Drawing.Bitmap bellona {
             get {
                 object obj = ResourceManager.GetObject("bellona", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BellonaIsBae {
+            get {
+                object obj = ResourceManager.GetObject("BellonaIsBae", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1103,6 +1123,16 @@ namespace DankSmite.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap KlopperIsShit {
+            get {
+                object obj = ResourceManager.GetObject("KlopperIsShit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kukulkan {
             get {
                 object obj = ResourceManager.GetObject("kukulkan", resourceCulture);
@@ -1853,6 +1883,16 @@ namespace DankSmite.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap SplattGreaterThanKlopper {
+            get {
+                object obj = ResourceManager.GetObject("SplattGreaterThanKlopper", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap stone_cutting_sword {
             get {
                 object obj = ResourceManager.GetObject("stone-cutting-sword", resourceCulture);
@@ -2256,6 +2296,16 @@ namespace DankSmite.Properties {
         internal static System.Drawing.Bitmap ymir {
             get {
                 object obj = ResourceManager.GetObject("ymir", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap YmirIsTheBest {
+            get {
+                object obj = ResourceManager.GetObject("YmirIsTheBest", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

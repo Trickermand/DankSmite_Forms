@@ -94,6 +94,33 @@ namespace DankSmite
             WelcomeFlag = false;
             DetailsFlag = false;
 
+            #region Background
+            if (this.TextInput.Text.ToLower().Equals("splatt>klopper"))
+            {
+                this.BackgroundImage = (Image)Resources.ResourceManager.GetObject("SplattGreaterThanKlopper");
+            }
+            else if (this.TextInput.Text.ToLower().Equals("klopper is shit"))
+            {
+                this.BackgroundImage = (Image)Resources.ResourceManager.GetObject("KlopperIsShit");
+            }
+            else if (this.TextInput.Text.ToLower().Equals("ares sucks"))
+            {
+                this.BackgroundImage = (Image)Resources.ResourceManager.GetObject("AresSucks");
+            }
+            else if (this.TextInput.Text.ToLower().Equals("bellona is bae"))
+            {
+                this.BackgroundImage = (Image)Resources.ResourceManager.GetObject("BellonaIsBae");
+            }
+            else if (this.TextInput.Text.ToLower().Equals("ymir is the best"))
+            {
+                this.BackgroundImage = (Image)Resources.ResourceManager.GetObject("YmirIsTheBest");
+            }
+            else if (this.TextInput.Text.ToLower().Equals("standard"))
+            {
+                this.BackgroundImage = (Image)Resources.ResourceManager.GetObject("NewDankSmiteBrackground");
+            }
+            #endregion
+
             //Some dankness
             #region Dank
             if (this.TextInput.Text == "op")

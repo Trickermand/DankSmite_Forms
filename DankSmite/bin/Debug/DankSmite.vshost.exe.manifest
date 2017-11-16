@@ -4,7 +4,7 @@
   <description asmv2:iconFile="icon300_5.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="DankSmite" version="1.4.6529.2063" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="DankSmite" version="1.4.6529.37320" language="neutral" processorArchitecture="msil" />
     <commandLine file="DankSmite.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DankSmite.exe" size="6244360">
-      <assemblyIdentity name="DankSmite" version="1.4.6529.2063" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DankSmite.exe" size="9870856">
+      <assemblyIdentity name="DankSmite" version="1.4.6529.37320" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>PTYtT6ijV/kh2zl32uPv4uEkVL4HN6rUVQ14uKMStQY=</dsig:DigestValue>
+        <dsig:DigestValue>sSNVTE38ASuSvUM1zzzTQcKsrA0SoETudvWXiyUA3ew=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>aXxsJOt7qC4G5tmzuVB42+xAV9PevrhiF8E+COPWT2g=</dsig:DigestValue>
+        <dsig:DigestValue>sfYyzqqFL5D6G7qTvtxsqJtEqSjBoFUW/GtSXN5JLOQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

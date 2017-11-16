@@ -138,6 +138,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon300_5.ico" />
+    <None Include="Resources\YmirIsTheBest.png" />
+    <None Include="Resources\SplattGreaterThanKlopper.png" />
+    <None Include="Resources\KlopperIsShit.png" />
+    <None Include="Resources\BellonaIsBae.png" />
+    <None Include="Resources\AresSucks.png" />
     <None Include="Resources\DankFrameRed.png" />
     <None Include="Resources\DankFrameBlue.png" />
     <None Include="Resources\heavenly-wings.png" />
