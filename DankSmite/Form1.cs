@@ -20,6 +20,7 @@ namespace DankSmite
         }
         
         int RerollAmount = 0;
+        string SmiteVersion = "4.22";
 
         public bool CredsFlag = false;
         public bool WelcomeFlag = false;
@@ -266,7 +267,7 @@ namespace DankSmite
             {
                 GeneralTextBox.Text = "Welcome to DankSmite!\nClick the Build button to get a god and a build! C" +
                                     "lick the pictures to reroll them, should you want to do so!\n\n\nWorks for smite ve" +
-                                    "rsion: 4.21\nDanksmite version: " + Assembly.GetExecutingAssembly().GetName().Version.ToString(2);
+                                    "rsion: " + SmiteVersion + "\nDanksmite version: " + Assembly.GetExecutingAssembly().GetName().Version.ToString(2);
                 CredsFlag = false;
                 WelcomeFlag = true;
                 DetailsFlag = false;

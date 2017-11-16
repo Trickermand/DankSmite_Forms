@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="DankSmite.exe.manifest" size="5721">
+    <dependentAssembly dependencyType="install" codebase="DankSmite.exe.manifest" size="5719">
       <assemblyIdentity name="DankSmite.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>JEQv6W2DfxzFrlyjx14wwO5c/Y5B2NSEQSUho1SXc1k=</dsig:DigestValue>
+        <dsig:DigestValue>ybJTsQIu5jF9o8u45+6eGIEFLcmlT4DGtVCzkVH0M9w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
