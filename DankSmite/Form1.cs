@@ -66,6 +66,7 @@ namespace DankSmite
         public bool first = true;
         public bool clickedRebuild = false;
 
+        #region God Input
         private void TextInput_KeyPress(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Return)
@@ -89,8 +90,7 @@ namespace DankSmite
             }
             this.DropDownMenu.SelectedIndex = 0;
         }
-
-
+        
         private void DropDownMenu_KeyPress(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Return)
@@ -99,6 +99,20 @@ namespace DankSmite
                 e.SuppressKeyPress = true;
             }
         }
+
+        public void DropDownMenu_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (this.DropDownMenu.SelectedIndex == 0)
+            {
+                this.TextInput.Text = "";
+            }
+            else
+            {
+                this.TextInput.ForeColor = System.Drawing.SystemColors.ControlText;
+                this.TextInput.Text = AllActualGods[this.DropDownMenu.SelectedIndex];
+            }
+        }
+        #endregion
 
         #region Build button
         private void BuildButton(object sender, EventArgs e)
@@ -601,18 +615,6 @@ namespace DankSmite
         }
         #endregion
 
-        public void DropDownMenu_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (this.DropDownMenu.SelectedIndex == 0)
-            {
-                this.TextInput.Text = "";
-            }
-            else
-            {
-                this.TextInput.ForeColor = System.Drawing.SystemColors.ControlText;
-                this.TextInput.Text = AllActualGods[this.DropDownMenu.SelectedIndex];
-            }
-        }
 
 
         #region BodySection

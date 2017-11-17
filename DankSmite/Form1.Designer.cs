@@ -1,4 +1,4 @@
-﻿#define Live
+﻿//#define Live
 using System.Drawing;
 using System.Reflection;
 using System.Collections.Generic;

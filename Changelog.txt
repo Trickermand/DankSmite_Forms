@@ -1,6 +1,7 @@
 ====================15-11-2017 VERSION  1.4=======================
 *ADDED
 	Added dropdown menu to select gods from
+	Added simplistic (sligthly insulting) background choices
 
 *CHANGED
 	Renamed dll file
