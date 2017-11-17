@@ -10,6 +10,7 @@ namespace gaiController
     {
         private List<God> allGods;
 
+
         public List<God> retrieveLegalList(bool g, bool m, bool h, bool a, bool w)
         {
             List<God> list = new List<God> { };
@@ -22,6 +23,17 @@ namespace gaiController
                     || w && _god.type.Equals("w")
                     )
                         { list.Add(_god); }
+            }
+            return list;
+        }
+
+        public List<string> retrieveAllGodNames()
+        {
+            List<string> list = new List<string> { };
+            list.Add("God");
+            foreach (God _god in allGods)
+            {
+                list.Add(_god.name.Replace('_', ' '));
             }
             return list;
         }

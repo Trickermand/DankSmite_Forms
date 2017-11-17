@@ -11,12 +11,14 @@ namespace DankSmite
 {
     public partial class Form1 : Form
     {
+        public List<string> AllActualGods = godCol.retrieveAllGodNames();
 
         public Form1()
         {
             InitializeComponent();
             WelcomeButton_Click(null, null);
             this.Text += " " + Assembly.GetExecutingAssembly().GetName().Version.ToString(2);
+
         }
         
         int RerollAmount = 0;
@@ -71,6 +73,10 @@ namespace DankSmite
                 BuildButton(null, null);
                 e.SuppressKeyPress = true;
             }
+            else
+            {
+                this.DropDownMenu.SelectedIndex = 0;
+            }
         }
 
         private void TextInput_Click(object sender, EventArgs e)
@@ -80,6 +86,17 @@ namespace DankSmite
                 this.TextInput.Text = "";
                 this.TextInput.ForeColor = System.Drawing.SystemColors.ControlText;
                 first = false;                   
+            }
+            this.DropDownMenu.SelectedIndex = 0;
+        }
+
+
+        private void DropDownMenu_KeyPress(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Return)
+            {
+                BuildButton(null, null);
+                e.SuppressKeyPress = true;
             }
         }
 
@@ -93,6 +110,9 @@ namespace DankSmite
             CredsFlag = false;
             WelcomeFlag = false;
             DetailsFlag = false;
+
+            //Some dankness
+
 
             #region Background
             if (this.TextInput.Text.ToLower().Equals("splatt>klopper"))
@@ -121,7 +141,7 @@ namespace DankSmite
             }
             #endregion
 
-            //Some dankness
+
             #region Dank
             if (this.TextInput.Text == "op")
             {
@@ -143,13 +163,17 @@ namespace DankSmite
             else if (this.TextInput.Text.ToLower() == "trickermand")
             {
                 _god = new God("Ymir", "g");
-                for (int i = 0; i < 6; i++)
-                {
-                    Build[i] = new Item("Hide_of_the_Urchin", "def", true, true, false);
-                }
+
+                Build[0] = new Item("Shoes_of_the_Magi", "dmg", true, false, false);
+                Build[1] = new Item("Dynasty_Plate_Helm", "hyb", true, false, false);
+                Build[2] = new Item("BreastPlate_of_Valor", "def", true, true, false);
+                Build[3] = new Item("Hide_of_the_Urchin", "def", true, true, false);
+                Build[5] = new Item("Shogun's_Kusari", "dmg", true, false, false);
+                Build[4] = new Item("Obsidian_Shard", "dmg", true, false, false);
+
                 Build[6] = new Item("Blink_Rune", "dmg", true, true, false);
-                Build[7] = new Item("Blink_Rune", "dmg", true, true, false);
-                Build[8] = new Item("Deathbringer", "dmg", false, true, false);
+                Build[7] = new Item("Magic_Shell", "dmg", true, true, false);
+                Build[8] = new Item("Death's_Toll", "dmg", false, true, false);
 
                 legalBoots = itemCol.retrieveLegalBoots(true, true, true, God.type);
                 legalItems = itemCol.retrieveLegalItems(true, true, true, God.type);
@@ -203,21 +227,8 @@ namespace DankSmite
                 && this.DefenseCheckBox.Checked == false
                 && this.HybridCheckBox.Checked == false)))
             {
-                //Sets labels
-                this.StarterItemLabel.Visible = true;
-                this.RelicLabel1.Visible = true;
-                this.RelicLabel2.Visible = true;
-                this.ItemLabel1.Visible = true;
-                this.ItemLabel2.Visible = true;
-                this.ItemLabel3.Visible = true;
-                this.ItemLabel4.Visible = true;
-                this.ItemLabel5.Visible = true;
-                this.ItemLabel6.Visible = true;
-                clickedRebuild = true;
-
                 
-
-
+                
                 if (string.IsNullOrEmpty(this.TextInput.Text))
                 {
                     fullRebuild(
@@ -240,8 +251,6 @@ namespace DankSmite
                     this.DefenseCheckBox.Checked
                     );
                 }
-
-
                 
             }
             else
@@ -261,6 +270,18 @@ namespace DankSmite
                 legalStarters = itemCol.retrieveLegalStarters(true, true, true, God.type);
             }
 
+            //Sets labels
+            this.StarterItemLabel.Visible = true;
+            this.RelicLabel1.Visible = true;
+            this.RelicLabel2.Visible = true;
+            this.ItemLabel1.Visible = true;
+            this.ItemLabel2.Visible = true;
+            this.ItemLabel3.Visible = true;
+            this.ItemLabel4.Visible = true;
+            this.ItemLabel5.Visible = true;
+            this.ItemLabel6.Visible = true;
+            clickedRebuild = true;
+            
             Draw();
 
         }
@@ -579,6 +600,19 @@ namespace DankSmite
             }
         }
         #endregion
+
+        public void DropDownMenu_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (this.DropDownMenu.SelectedIndex == 0)
+            {
+                this.TextInput.Text = "";
+            }
+            else
+            {
+                this.TextInput.ForeColor = System.Drawing.SystemColors.ControlText;
+                this.TextInput.Text = AllActualGods[this.DropDownMenu.SelectedIndex];
+            }
+        }
 
 
         #region BodySection

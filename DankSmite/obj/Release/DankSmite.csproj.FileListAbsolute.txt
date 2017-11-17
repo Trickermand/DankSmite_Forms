@@ -3,6 +3,8 @@ C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\bin\Rel
 C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\bin\Release\DankSmite.application
 C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\bin\Release\DankSmite.exe
 C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\bin\Release\DankSmite.pdb
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\bin\Release\gaiController.dll
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\bin\Release\gaiController.pdb
 C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Release\DankSmite.csprojResolveAssemblyReference.cache
 C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Release\DankSmite.Form1.resources
 C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Release\DankSmite.Properties.Resources.resources
@@ -12,5 +14,3 @@ C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Rel
 C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Release\DankSmite.application
 C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Release\DankSmite.exe
 C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Release\DankSmite.pdb
-C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\bin\Release\gaiController.dll
-C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\bin\Release\gaiController.pdb

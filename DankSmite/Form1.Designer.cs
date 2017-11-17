@@ -1,5 +1,8 @@
-﻿using System.Drawing;
+﻿#define Live
+using System.Drawing;
 using System.Reflection;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace DankSmite
 {
@@ -74,6 +77,7 @@ namespace DankSmite
             this.ItemIntensityLabel = new System.Windows.Forms.Label();
             this.CheckBoxGroup = new System.Windows.Forms.GroupBox();
             this.DetailsButton = new System.Windows.Forms.Button();
+            this.DropDownMenu = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.GodPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ItemPicture1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ItemPicture2)).BeginInit();
@@ -352,6 +356,7 @@ namespace DankSmite
             // TextInput
             // 
             this.TextInput.BackColor = System.Drawing.Color.White;
+            this.TextInput.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.TextInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextInput.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.TextInput.Location = new System.Drawing.Point(747, 71);
@@ -674,6 +679,24 @@ namespace DankSmite
             this.DetailsButton.UseVisualStyleBackColor = true;
             this.DetailsButton.Click += new System.EventHandler(this.DetailsButton_Click);
             // 
+            // DropDownMenu
+            // 
+            this.DropDownMenu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DropDownMenu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DropDownMenu.FormattingEnabled = true;
+#if Live
+            this.DropDownMenu.Items.AddRange(AllActualGods.ToArray());
+#else
+            this.DropDownMenu.Items.Add("God");
+#endif
+            this.DropDownMenu.Text = "God";
+            this.DropDownMenu.Location = new System.Drawing.Point(747, 23);
+            this.DropDownMenu.Name = "DropDownMenu";
+            this.DropDownMenu.Size = new System.Drawing.Size(165, 21);
+            this.DropDownMenu.TabIndex = 62;
+            this.DropDownMenu.SelectedIndexChanged += new System.EventHandler(this.DropDownMenu_SelectedIndexChanged);
+            this.DropDownMenu.KeyDown += new System.Windows.Forms.KeyEventHandler(this.DropDownMenu_KeyPress);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -682,6 +705,7 @@ namespace DankSmite
             this.BackgroundImage = global::DankSmite.Properties.Resources.NewDankSmiteBrackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(944, 681);
+            this.Controls.Add(this.DropDownMenu);
             this.Controls.Add(this.DetailsButton);
             this.Controls.Add(this.CheckBoxGroup);
             this.Controls.Add(this.WelcomeButton);
@@ -723,7 +747,6 @@ namespace DankSmite
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dank Smite";
-            //this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.GodPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ItemPicture1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ItemPicture2)).EndInit();
@@ -785,6 +808,7 @@ namespace DankSmite
         private System.Windows.Forms.Label ItemIntensityLabel;
         private System.Windows.Forms.GroupBox CheckBoxGroup;
         private System.Windows.Forms.Button DetailsButton;
+        private System.Windows.Forms.ComboBox DropDownMenu;
     }
 }
 
