@@ -1,6 +1,6 @@
 ====================15-11-2017 VERSION  1.4=======================
 *ADDED
-	
+	Added dropdown menu to select gods from
 
 *CHANGED
 	Renamed dll file
