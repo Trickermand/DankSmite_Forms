@@ -1,4 +1,0 @@
-C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\gaiController\bin\Debug\gaiController.dll
-C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\gaiController\bin\Debug\gaiController.pdb
-C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\gaiController\obj\Debug\gaiController.dll
-C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\gaiController\obj\Debug\gaiController.pdb
