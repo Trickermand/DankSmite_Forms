@@ -187,7 +187,7 @@ namespace DankSmite
 
                 Build[6] = new Item("Blink_Rune", "dmg", true, true, false);
                 Build[7] = new Item("Magic_Shell", "dmg", true, true, false);
-                Build[8] = new Item("Death's_Toll", "dmg", false, true, false);
+                Build[8] = new Item("Mark_of_the_Vanguard", "dmg", false, true, false);
 
                 legalBoots = itemCol.retrieveLegalBoots(true, true, true, God.type);
                 legalItems = itemCol.retrieveLegalItems(true, true, true, God.type);
