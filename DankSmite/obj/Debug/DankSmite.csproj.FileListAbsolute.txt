@@ -1,0 +1,16 @@
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\bin\Debug\DankSmite.exe.config
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\bin\Debug\DankSmite.exe.manifest
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\bin\Debug\DankSmite.application
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\bin\Debug\DankSmite.exe
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\bin\Debug\DankSmite.pdb
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\bin\Debug\gaiController.dll
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\bin\Debug\gaiController.pdb
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Debug\DankSmite.csprojResolveAssemblyReference.cache
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Debug\DankSmite.Form1.resources
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Debug\DankSmite.Properties.Resources.resources
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Debug\DankSmite.csproj.GenerateResource.Cache
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Debug\DankSmite.TrustInfo.xml
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Debug\DankSmite.exe.manifest
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Debug\DankSmite.application
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Debug\DankSmite.exe
+C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Debug\DankSmite.pdb
