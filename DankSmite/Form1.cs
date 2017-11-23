@@ -36,18 +36,18 @@ namespace DankSmite
         
 
         static Item[] _build = new Item[9] {
-            new Item("null","null",false, false, false),
-            new Item("null","null",false, false, false),
-            new Item("null","null",false, false, false),
-            new Item("null","null",false, false, false),
-            new Item("null","null",false, false, false),
-            new Item("null","null",false, false, false),
-            new Item("null","null",false, false, false),
-            new Item("null","null",false, false, false),
-            new Item("null","null",false, false, false)
+            new Item("","",false, false, false),
+            new Item("","",false, false, false),
+            new Item("","",false, false, false),
+            new Item("","",false, false, false),
+            new Item("","",false, false, false),
+            new Item("","",false, false, false),
+            new Item("","",false, false, false),
+            new Item("","",false, false, false),
+            new Item("","",false, false, false)
         };
 
-        static God _god = new God("nope", "nope");
+        static God _god = new God("", "");
         static List<God> legalGods;
         static List<Item> legalItems;
         static List<Item> legalBoots;
