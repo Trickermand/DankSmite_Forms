@@ -1,3 +1,17 @@
+====================23-11-2017 VERSION  1.5=======================
+*ADDED
+	
+
+*CHANGED
+	Changed Fonts
+	Changed all borders containing text
+	Changed overall sizes and appearances
+
+*FIXED
+
+
+
+
 ====================21-11-2017 VERSION  1.4=======================
 *ADDED
 	Added dropdown menu to select gods from

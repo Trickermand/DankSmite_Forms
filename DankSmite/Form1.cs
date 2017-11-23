@@ -18,8 +18,7 @@ namespace DankSmite
             InitializeComponent();
             WelcomeButton_Click(null, null);
             this.Text += " " + Assembly.GetExecutingAssembly().GetName().Version.ToString(2);
-            List<string> AllGodNames = godCol.retrieveAllGodNames();
-            foreach (string GodName in AllGodNames)
+            foreach (string GodName in AllActualGods)
             {
                 this.DropDownMenu.Items.Add(GodName);
             }
@@ -28,7 +27,7 @@ namespace DankSmite
         }
         
         int RerollAmount = 0;
-        string SmiteVersion = "4.22";
+        string SmiteVersion = "4.23";
 
         public bool CredsFlag = false;
         public bool WelcomeFlag = false;
