@@ -204,25 +204,33 @@ namespace DankSmite
             // RelicLabel2
             // 
             this.RelicLabel2.AutoSize = true;
+            this.RelicLabel2.BackColor = System.Drawing.Color.Transparent;
             this.RelicLabel2.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RelicLabel2.ForeColor = System.Drawing.Color.Maroon;
-            this.RelicLabel2.Location = new System.Drawing.Point(444, 530);
+            this.RelicLabel2.ForeColor = System.Drawing.Color.White;
+            this.RelicLabel2.Image = ((System.Drawing.Image)(resources.GetObject("RelicLabel2.Image")));
+            this.RelicLabel2.Location = new System.Drawing.Point(439, 521);
+            this.RelicLabel2.MinimumSize = new System.Drawing.Size(76, 29);
             this.RelicLabel2.Name = "RelicLabel2";
-            this.RelicLabel2.Size = new System.Drawing.Size(72, 23);
+            this.RelicLabel2.Size = new System.Drawing.Size(76, 29);
             this.RelicLabel2.TabIndex = 7;
             this.RelicLabel2.Text = "Relic 2";
+            this.RelicLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.RelicLabel2.Visible = false;
             // 
             // RelicLabel1
             // 
             this.RelicLabel1.AutoSize = true;
+            this.RelicLabel1.BackColor = System.Drawing.Color.Transparent;
             this.RelicLabel1.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RelicLabel1.ForeColor = System.Drawing.Color.Maroon;
-            this.RelicLabel1.Location = new System.Drawing.Point(326, 530);
+            this.RelicLabel1.ForeColor = System.Drawing.Color.White;
+            this.RelicLabel1.Image = ((System.Drawing.Image)(resources.GetObject("RelicLabel1.Image")));
+            this.RelicLabel1.Location = new System.Drawing.Point(321, 521);
+            this.RelicLabel1.MinimumSize = new System.Drawing.Size(76, 29);
             this.RelicLabel1.Name = "RelicLabel1";
-            this.RelicLabel1.Size = new System.Drawing.Size(77, 25);
+            this.RelicLabel1.Size = new System.Drawing.Size(76, 29);
             this.RelicLabel1.TabIndex = 8;
             this.RelicLabel1.Text = "Relic 1";
+            this.RelicLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.RelicLabel1.Visible = false;
             // 
             // label9
@@ -235,6 +243,7 @@ namespace DankSmite
             this.label9.Size = new System.Drawing.Size(48, 23);
             this.label9.TabIndex = 18;
             this.label9.Text = "God";
+            this.label9.Visible = false;
             // 
             // GodPicture
             // 
@@ -354,13 +363,17 @@ namespace DankSmite
             // RerollLabel
             // 
             this.RerollLabel.AutoSize = true;
+            this.RerollLabel.BackColor = System.Drawing.Color.Transparent;
             this.RerollLabel.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RerollLabel.ForeColor = System.Drawing.Color.Maroon;
-            this.RerollLabel.Location = new System.Drawing.Point(47, 279);
+            this.RerollLabel.ForeColor = System.Drawing.Color.White;
+            this.RerollLabel.Image = global::DankSmite.Properties.Resources.FrameRerollsUsed;
+            this.RerollLabel.Location = new System.Drawing.Point(39, 279);
+            this.RerollLabel.MinimumSize = new System.Drawing.Size(128, 29);
             this.RerollLabel.Name = "RerollLabel";
-            this.RerollLabel.Size = new System.Drawing.Size(124, 23);
+            this.RerollLabel.Size = new System.Drawing.Size(128, 29);
             this.RerollLabel.TabIndex = 36;
             this.RerollLabel.Text = "Rerolls Used";
+            this.RerollLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // RerollNumber
             // 
@@ -368,13 +381,14 @@ namespace DankSmite
             this.RerollNumber.BackColor = System.Drawing.Color.Transparent;
             this.RerollNumber.Font = new System.Drawing.Font("Baskerville Old Face", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RerollNumber.ForeColor = System.Drawing.Color.Maroon;
-            this.RerollNumber.Location = new System.Drawing.Point(39, 308);
-            this.RerollNumber.MinimumSize = new System.Drawing.Size(128, 0);
+            this.RerollNumber.Image = global::DankSmite.Properties.Resources.FrameRerollcounter1;
+            this.RerollNumber.Location = new System.Drawing.Point(75, 326);
+            this.RerollNumber.MinimumSize = new System.Drawing.Size(52, 60);
             this.RerollNumber.Name = "RerollNumber";
-            this.RerollNumber.Size = new System.Drawing.Size(128, 54);
+            this.RerollNumber.Size = new System.Drawing.Size(52, 60);
             this.RerollNumber.TabIndex = 37;
             this.RerollNumber.Text = "0";
-            this.RerollNumber.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.RerollNumber.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // TextInput
             // 
@@ -444,6 +458,7 @@ namespace DankSmite
             this.GodLabel.Name = "GodLabel";
             this.GodLabel.Size = new System.Drawing.Size(150, 37);
             this.GodLabel.TabIndex = 43;
+            this.GodLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // CreditsButon
             // 

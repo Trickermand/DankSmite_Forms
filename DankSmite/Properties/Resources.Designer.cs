@@ -733,9 +733,59 @@ namespace DankSmite.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FrameGodName {
+            get {
+                object obj = ResourceManager.GetObject("FrameGodName", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FrameItem {
             get {
                 object obj = ResourceManager.GetObject("FrameItem", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FrameRelic {
+            get {
+                object obj = ResourceManager.GetObject("FrameRelic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FrameRerollcounter1 {
+            get {
+                object obj = ResourceManager.GetObject("FrameRerollcounter1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FrameRerollcounter2 {
+            get {
+                object obj = ResourceManager.GetObject("FrameRerollcounter2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FrameRerollsUsed {
+            get {
+                object obj = ResourceManager.GetObject("FrameRerollsUsed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

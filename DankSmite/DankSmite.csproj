@@ -138,6 +138,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon300_5.ico" />
+    <None Include="Resources\FrameGodName.png" />
+    <None Include="Resources\FrameRerollcounter2.png" />
+    <None Include="Resources\FrameRerollcounter1.png" />
+    <None Include="Resources\FrameRerollsUsed.png" />
+    <None Include="Resources\FrameRelic.png" />
     <None Include="Resources\FrameItem.png" />
     <None Include="Resources\FrameStarterItem.png" />
     <None Include="Resources\font-opium.bmp" />
