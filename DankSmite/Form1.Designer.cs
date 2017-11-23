@@ -165,7 +165,7 @@ namespace DankSmite
             this.ItemLabel4.Name = "ItemLabel4";
             this.ItemLabel4.Size = new System.Drawing.Size(72, 29);
             this.ItemLabel4.TabIndex = 4;
-            this.ItemLabel4.Text = "Item 4";
+            this.ItemLabel4.Text = "Item 4 something";
             this.ItemLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ItemLabel4.Visible = false;
             // 
