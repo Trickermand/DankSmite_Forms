@@ -30,3 +30,6 @@ C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Deb
 C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Debug\DankSmite.application
 C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Debug\DankSmite.exe
 C:\Users\patri\Documents\Visual Studio 2015\Projects\DankSmite\DankSmite\obj\Debug\DankSmite.pdb
+C:\Users\patri\Desktop\DankSmite\DankSmite\bin\Debug\DankSmite.exe.config
+C:\Users\patri\Desktop\DankSmite\DankSmite\obj\Debug\DankSmite.exe
+C:\Users\patri\Desktop\DankSmite\DankSmite\obj\Debug\DankSmite.pdb
