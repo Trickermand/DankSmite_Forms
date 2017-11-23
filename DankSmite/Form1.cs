@@ -32,7 +32,9 @@ namespace DankSmite
         public bool WelcomeFlag = false;
         public bool DetailsFlag = false;
         public bool FirstDropDown = true;
-        
+        public bool first = true;
+        public bool clickedRebuild = false;
+
 
         static Item[] _build = new Item[9] {
             new Item("","",false, false, false),
@@ -55,8 +57,7 @@ namespace DankSmite
         static GodCollector godCol = new GodCollector();
         static ItemCollector itemCol = new ItemCollector();
         private Random rnd = new Random();
-
-
+        
         public static Item[] Build
         {
             get { return _build; }
@@ -68,8 +69,7 @@ namespace DankSmite
             set { _god = value; }
         }
 
-        public bool first = true;
-        public bool clickedRebuild = false;
+
 
         #region God Input
         private void TextInput_KeyPress(object sender, KeyEventArgs e)
@@ -134,9 +134,11 @@ namespace DankSmite
                     tempText = "amaterasu";
                     break;
                 case "dog":
+                case "doggo":
                     tempText = "anubis";
                     break;
                 case "cat":
+                case "cate":
                     tempText = "bastet";
                     break;
                 case "cama":
