@@ -148,9 +148,6 @@
   <data name="TestFrameStarter2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TestFrameStarter2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="da-ji" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\da-ji.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="neith" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\neith.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -208,9 +205,6 @@
   <data name="jotunns-wrath" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jotunns-wrath.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shifters-shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shifters-shield.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="bakasura" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bakasura.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -220,6 +214,9 @@
   <data name="blink-rune" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blink-rune.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bracer-of-undoing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bracer-of-undoing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="oni-hunters-garb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\oni-hunters-garb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -228,9 +225,6 @@
   </data>
   <data name="ichaival" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ichaival.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="toxic-blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\toxic-blade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="poseidon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\poseidon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -271,6 +265,9 @@
   <data name="deaths-toll" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\deaths-toll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="poisoned-star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poisoned-star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="AresSucks" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AresSucks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -301,6 +298,9 @@
   <data name="hydras-lament" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hydras-lament.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="TestFrameStarter3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TestFrameStarter3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="gem-of-isolation" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gem-of-isolation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -321,9 +321,6 @@
   </data>
   <data name="spirit-robe" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\spirit-robe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="aphrodite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\aphrodite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sovereignty" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sovereignty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -349,9 +346,6 @@
   <data name="sobek" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sobek.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jade-emperors-crown" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jade-emperors-crown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ancile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ancile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -375,6 +369,9 @@
   </data>
   <data name="divine-ruin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\divine-ruin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cabrakan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cabrakan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ah-muzen-cab" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ah-muzen-cab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -418,14 +415,11 @@
   <data name="hun-batz" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hun-batz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="emperors-armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\emperors-armor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="hachiman" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hachiman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cabrakan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cabrakan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="toxic-blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toxic-blade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ne-zha" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ne-zha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -444,6 +438,9 @@
   </data>
   <data name="cu-chulainn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cu-chulainn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qins-sais" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qins-sais.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="relic-dagger" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\relic-dagger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -474,6 +471,9 @@
   </data>
   <data name="bulwark-of-hope" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bulwark-of-hope.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="khepri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\khepri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="purification-beads" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\purification-beads.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -565,11 +565,11 @@
   <data name="sol" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bracer-of-undoing" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bracer-of-undoing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="silverbranch-bow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\silverbranch-bow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emperors-armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emperors-armor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bumbas-mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bumbas-mask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -580,8 +580,8 @@
   <data name="osiris" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\osiris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="khepri" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\khepri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="horrific-emblem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\horrific-emblem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="the-morrigan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\the-morrigan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -679,8 +679,8 @@
   <data name="sands-of-time" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sands-of-time.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="poisoned-star" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\poisoned-star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="jade-emperors-crown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jade-emperors-crown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="stone-of-fal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\stone-of-fal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -702,6 +702,9 @@
   </data>
   <data name="genjis-guard" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\genjis-guard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stone-of-gaia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stone-of-gaia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wind-demon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wind-demon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -739,8 +742,8 @@
   <data name="medusa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\medusa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="odin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\odin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="aphrodite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aphrodite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="asi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\asi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -754,8 +757,8 @@
   <data name="the-crusher" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\the-crusher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="horrific-emblem" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\horrific-emblem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="odin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\odin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DankFrameRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DankFrameRed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -778,14 +781,17 @@
   <data name="telkhines-ring" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\telkhines-ring.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="stone-of-gaia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\stone-of-gaia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="shifters-shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shifters-shield.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="discordia" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\discordia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="qins-sais" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\qins-sais.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FrameStarterItem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FrameStarterItem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="da-ji" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\da-ji.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NewDankSmiteBrackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NewDankSmiteBrackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -805,7 +811,7 @@
   <data name="nu-wa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nu-wa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TestFrameStarter3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TestFrameStarter3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FrameItem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FrameItem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

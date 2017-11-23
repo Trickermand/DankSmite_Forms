@@ -138,6 +138,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon300_5.ico" />
+    <None Include="Resources\FrameItem.png" />
+    <None Include="Resources\FrameStarterItem.png" />
     <None Include="Resources\font-opium.bmp" />
     <None Include="Resources\OPIUM.TTF" />
     <None Include="Resources\TestFrameStarter3.png" />

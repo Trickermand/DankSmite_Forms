@@ -108,74 +108,97 @@ namespace DankSmite
             // ItemLabel1
             // 
             this.ItemLabel1.AutoSize = true;
+            this.ItemLabel1.BackColor = System.Drawing.Color.Transparent;
             this.ItemLabel1.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ItemLabel1.ForeColor = System.Drawing.Color.Maroon;
-            this.ItemLabel1.Location = new System.Drawing.Point(583, 397);
+            this.ItemLabel1.ForeColor = System.Drawing.Color.White;
+            this.ItemLabel1.Image = global::DankSmite.Properties.Resources.FrameItem;
+            this.ItemLabel1.Location = new System.Drawing.Point(578, 388);
+            this.ItemLabel1.MinimumSize = new System.Drawing.Size(72, 29);
             this.ItemLabel1.Name = "ItemLabel1";
-            this.ItemLabel1.Size = new System.Drawing.Size(68, 23);
+            this.ItemLabel1.Size = new System.Drawing.Size(72, 29);
             this.ItemLabel1.TabIndex = 1;
             this.ItemLabel1.Text = "Item 1";
+            this.ItemLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ItemLabel1.Visible = false;
             // 
             // ItemLabel2
             // 
             this.ItemLabel2.AutoSize = true;
+            this.ItemLabel2.BackColor = System.Drawing.Color.Transparent;
             this.ItemLabel2.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ItemLabel2.ForeColor = System.Drawing.Color.Maroon;
-            this.ItemLabel2.Location = new System.Drawing.Point(705, 397);
+            this.ItemLabel2.ForeColor = System.Drawing.Color.White;
+            this.ItemLabel2.Image = ((System.Drawing.Image)(resources.GetObject("ItemLabel2.Image")));
+            this.ItemLabel2.Location = new System.Drawing.Point(700, 388);
+            this.ItemLabel2.MinimumSize = new System.Drawing.Size(72, 29);
             this.ItemLabel2.Name = "ItemLabel2";
-            this.ItemLabel2.Size = new System.Drawing.Size(68, 23);
+            this.ItemLabel2.Size = new System.Drawing.Size(72, 29);
             this.ItemLabel2.TabIndex = 2;
             this.ItemLabel2.Text = "Item 2";
+            this.ItemLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ItemLabel2.Visible = false;
             // 
             // ItemLabel3
             // 
             this.ItemLabel3.AutoSize = true;
-            this.ItemLabel3.BackColor = System.Drawing.Color.SkyBlue;
+            this.ItemLabel3.BackColor = System.Drawing.Color.Transparent;
             this.ItemLabel3.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ItemLabel3.ForeColor = System.Drawing.Color.Maroon;
-            this.ItemLabel3.Location = new System.Drawing.Point(827, 397);
+            this.ItemLabel3.ForeColor = System.Drawing.Color.White;
+            this.ItemLabel3.Image = ((System.Drawing.Image)(resources.GetObject("ItemLabel3.Image")));
+            this.ItemLabel3.Location = new System.Drawing.Point(822, 388);
+            this.ItemLabel3.MinimumSize = new System.Drawing.Size(72, 29);
             this.ItemLabel3.Name = "ItemLabel3";
-            this.ItemLabel3.Size = new System.Drawing.Size(68, 23);
+            this.ItemLabel3.Size = new System.Drawing.Size(72, 29);
             this.ItemLabel3.TabIndex = 3;
             this.ItemLabel3.Text = "Item 3";
+            this.ItemLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ItemLabel3.Visible = false;
             // 
             // ItemLabel4
             // 
             this.ItemLabel4.AutoSize = true;
+            this.ItemLabel4.BackColor = System.Drawing.Color.Transparent;
             this.ItemLabel4.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ItemLabel4.ForeColor = System.Drawing.Color.Maroon;
-            this.ItemLabel4.Location = new System.Drawing.Point(583, 530);
+            this.ItemLabel4.ForeColor = System.Drawing.Color.White;
+            this.ItemLabel4.Image = ((System.Drawing.Image)(resources.GetObject("ItemLabel4.Image")));
+            this.ItemLabel4.Location = new System.Drawing.Point(578, 521);
+            this.ItemLabel4.MinimumSize = new System.Drawing.Size(72, 29);
             this.ItemLabel4.Name = "ItemLabel4";
-            this.ItemLabel4.Size = new System.Drawing.Size(68, 23);
+            this.ItemLabel4.Size = new System.Drawing.Size(72, 29);
             this.ItemLabel4.TabIndex = 4;
             this.ItemLabel4.Text = "Item 4";
+            this.ItemLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ItemLabel4.Visible = false;
             // 
             // ItemLabel5
             // 
             this.ItemLabel5.AutoSize = true;
+            this.ItemLabel5.BackColor = System.Drawing.Color.Transparent;
             this.ItemLabel5.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ItemLabel5.ForeColor = System.Drawing.Color.Maroon;
-            this.ItemLabel5.Location = new System.Drawing.Point(705, 530);
+            this.ItemLabel5.ForeColor = System.Drawing.Color.White;
+            this.ItemLabel5.Image = ((System.Drawing.Image)(resources.GetObject("ItemLabel5.Image")));
+            this.ItemLabel5.Location = new System.Drawing.Point(700, 521);
+            this.ItemLabel5.MinimumSize = new System.Drawing.Size(72, 29);
             this.ItemLabel5.Name = "ItemLabel5";
-            this.ItemLabel5.Size = new System.Drawing.Size(68, 23);
+            this.ItemLabel5.Size = new System.Drawing.Size(72, 29);
             this.ItemLabel5.TabIndex = 5;
             this.ItemLabel5.Text = "Item 5";
+            this.ItemLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ItemLabel5.Visible = false;
             // 
             // ItemLabel6
             // 
             this.ItemLabel6.AutoSize = true;
+            this.ItemLabel6.BackColor = System.Drawing.Color.Transparent;
             this.ItemLabel6.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ItemLabel6.ForeColor = System.Drawing.Color.Maroon;
-            this.ItemLabel6.Location = new System.Drawing.Point(827, 530);
+            this.ItemLabel6.ForeColor = System.Drawing.Color.White;
+            this.ItemLabel6.Image = ((System.Drawing.Image)(resources.GetObject("ItemLabel6.Image")));
+            this.ItemLabel6.Location = new System.Drawing.Point(822, 521);
+            this.ItemLabel6.MinimumSize = new System.Drawing.Size(72, 29);
             this.ItemLabel6.Name = "ItemLabel6";
-            this.ItemLabel6.Size = new System.Drawing.Size(68, 23);
+            this.ItemLabel6.Size = new System.Drawing.Size(72, 29);
             this.ItemLabel6.TabIndex = 6;
             this.ItemLabel6.Text = "Item 6";
+            this.ItemLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ItemLabel6.Visible = false;
             // 
             // RelicLabel2
@@ -193,7 +216,7 @@ namespace DankSmite
             // RelicLabel1
             // 
             this.RelicLabel1.AutoSize = true;
-            this.RelicLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RelicLabel1.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RelicLabel1.ForeColor = System.Drawing.Color.Maroon;
             this.RelicLabel1.Location = new System.Drawing.Point(326, 530);
             this.RelicLabel1.Name = "RelicLabel1";
@@ -386,13 +409,13 @@ namespace DankSmite
             this.StarterItemLabel.AutoSize = true;
             this.StarterItemLabel.BackColor = System.Drawing.Color.Transparent;
             this.StarterItemLabel.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StarterItemLabel.ForeColor = System.Drawing.Color.Maroon;
-            this.StarterItemLabel.Image = global::DankSmite.Properties.Resources.TestFrameStarter3;
-            this.StarterItemLabel.Location = new System.Drawing.Point(359, 391);
+            this.StarterItemLabel.ForeColor = System.Drawing.Color.White;
+            this.StarterItemLabel.Image = global::DankSmite.Properties.Resources.FrameStarterItem;
+            this.StarterItemLabel.Location = new System.Drawing.Point(356, 388);
             this.StarterItemLabel.Margin = new System.Windows.Forms.Padding(0);
-            this.StarterItemLabel.MinimumSize = new System.Drawing.Size(115, 28);
+            this.StarterItemLabel.MinimumSize = new System.Drawing.Size(119, 29);
             this.StarterItemLabel.Name = "StarterItemLabel";
-            this.StarterItemLabel.Size = new System.Drawing.Size(116, 28);
+            this.StarterItemLabel.Size = new System.Drawing.Size(119, 29);
             this.StarterItemLabel.TabIndex = 41;
             this.StarterItemLabel.Text = "Starter Item";
             this.StarterItemLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
