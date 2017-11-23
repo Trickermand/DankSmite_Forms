@@ -733,6 +733,26 @@ namespace DankSmite.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FrameCurrentItemText {
+            get {
+                object obj = ResourceManager.GetObject("FrameCurrentItemText", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FrameGeneralText {
+            get {
+                object obj = ResourceManager.GetObject("FrameGeneralText", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FrameGodName {
             get {
                 object obj = ResourceManager.GetObject("FrameGodName", resourceCulture);
@@ -763,19 +783,9 @@ namespace DankSmite.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap FrameRerollcounter1 {
+        internal static System.Drawing.Bitmap FrameRerollCounter {
             get {
-                object obj = ResourceManager.GetObject("FrameRerollcounter1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap FrameRerollcounter2 {
-            get {
-                object obj = ResourceManager.GetObject("FrameRerollcounter2", resourceCulture);
+                object obj = ResourceManager.GetObject("FrameRerollCounter", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

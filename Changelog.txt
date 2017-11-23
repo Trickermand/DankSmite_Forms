@@ -1,6 +1,6 @@
 ====================23-11-2017 VERSION  1.5=======================
 *ADDED
-	
+	Added various ways to input existing god names(amc = ah muzen cab, etc.)
 
 *CHANGED
 	Changed Fonts
@@ -8,7 +8,7 @@
 	Changed overall sizes and appearances
 
 *FIXED
-
+	
 
 
 

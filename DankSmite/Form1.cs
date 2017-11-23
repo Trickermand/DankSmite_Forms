@@ -23,7 +23,6 @@ namespace DankSmite
                 this.DropDownMenu.Items.Add(GodName);
             }
             this.DropDownMenu.SelectedIndex = 0;
-
         }
         
         int RerollAmount = 0;
@@ -36,7 +35,7 @@ namespace DankSmite
         
 
         static Item[] _build = new Item[9] {
-            new Item("somestuff","",false, false, false),
+            new Item("","",false, false, false),
             new Item("","",false, false, false),
             new Item("","",false, false, false),
             new Item("","",false, false, false),
@@ -122,6 +121,85 @@ namespace DankSmite
                 this.TextInput.Text = AllActualGods[this.DropDownMenu.SelectedIndex];
             }
         }
+
+        private void GodNameInterpreter()
+        {
+            string tempText = this.TextInput.Text.ToLower();
+            switch (tempText)
+            {
+                case "amc":
+                    tempText = "ah muzen cab";
+                    break;
+                case "ama":
+                    tempText = "amaterasu";
+                    break;
+                case "dog":
+                    tempText = "anubis";
+                    break;
+                case "cat":
+                    tempText = "bastet";
+                    break;
+                case "cama":
+                case "camasucks":
+                    tempText = "camazotz";
+                    break;
+                case "cern":
+                    tempText = "cernunnos";
+                    break;
+                case "change":
+                    tempText = "chang'e";
+                    break;
+                case "choo choo":
+                case "chu chu":
+                case "chuchu":
+                    tempText = "cu chulainn";
+                    break;
+                case "iza":
+                    tempText = "izanami";
+                    break;
+                case "kuku":
+                case "kkk":
+                    tempText = "kukulkan";
+                    break;
+                case "kumba":
+                case "kumbha":
+                case "khumba":
+                    tempText = "kumbhakarna";
+                    break;
+                case "rat":
+                    tempText = "ratatoskr";
+                    break;
+                case "monkey":
+                case "wukong":
+                    tempText = "sun wukong";
+                    break;
+                case "thana":
+                    tempText = "thanatos";
+                    break;
+                case "morrigan":
+                    tempText = "the morrigan";
+                    break;
+                case "mcshitterfuck":
+                case "mc shitterfuck":
+                    this.BackgroundImage = global::DankSmite.Properties.Resources.thor;
+                    this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Tile;
+                    tempText = "thor";
+                    break;
+                case "xaba":
+                case "xballer": //Nazzyc is a retard - Splatt will not erase this line//
+                case "xba":
+                    tempText = "xbalanque";
+                    break;
+                case "xing":
+                    tempText = "xing tian";
+                    break;
+                case "zhong":
+                    tempText = "zhong kui";
+                    break;
+
+            }
+            this.TextInput.Text = tempText;
+        }
         #endregion
 
         #region Build button
@@ -135,6 +213,9 @@ namespace DankSmite
             WelcomeFlag = false;
             DetailsFlag = false;
 
+            //Making input easier
+            GodNameInterpreter();
+
             //Some dankness
 
 
@@ -142,26 +223,32 @@ namespace DankSmite
             if (this.TextInput.Text.ToLower().Equals("splatt>klopper"))
             {
                 this.BackgroundImage = (Image)Resources.ResourceManager.GetObject("SplattGreaterThanKlopper");
+                this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             }
             else if (this.TextInput.Text.ToLower().Equals("klopper is shit"))
             {
                 this.BackgroundImage = (Image)Resources.ResourceManager.GetObject("KlopperIsShit");
+                this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             }
             else if (this.TextInput.Text.ToLower().Equals("ares sucks"))
             {
                 this.BackgroundImage = (Image)Resources.ResourceManager.GetObject("AresSucks");
+                this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             }
             else if (this.TextInput.Text.ToLower().Equals("bellona is bae"))
             {
                 this.BackgroundImage = (Image)Resources.ResourceManager.GetObject("BellonaIsBae");
+                this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             }
             else if (this.TextInput.Text.ToLower().Equals("ymir is the best"))
             {
                 this.BackgroundImage = (Image)Resources.ResourceManager.GetObject("YmirIsTheBest");
+                this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             }
             else if (this.TextInput.Text.ToLower().Equals("standard"))
             {
                 this.BackgroundImage = (Image)Resources.ResourceManager.GetObject("NewDankSmiteBrackground");
+                this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             }
             #endregion
 
@@ -443,7 +530,14 @@ namespace DankSmite
                 pictureBox.BackgroundImage = (Image)Resources.ResourceManager.GetObject(NamingFormatter(Build[i].name));
                 this.CurrentItemNameLabel.Text = Build[i].name.Replace('_', ' ');
                 RerollAmount++;
-                this.RerollNumber.Text = RerollAmount.ToString();
+                if (RerollAmount >= 1000)
+                {
+                    this.RerollNumber.Text = double.PositiveInfinity.ToString();
+                }
+                else
+                {
+                    this.RerollNumber.Text = RerollAmount.ToString();
+                }
             }
         }
 
@@ -476,6 +570,34 @@ namespace DankSmite
         private void Draw()
         {
             DrawGodPictureBox();
+
+            this.ItemPicture1.Enabled = true;
+            this.ItemPicture1.Visible = true;
+            this.ItemPicture2.Enabled = true;
+            this.ItemPicture2.Visible = true;
+            this.ItemPicture3.Enabled = true;
+            this.ItemPicture3.Visible = true;
+            this.ItemPicture4.Enabled = true;
+            this.ItemPicture4.Visible = true;
+            this.ItemPicture5.Enabled = true;
+            this.ItemPicture5.Visible = true;
+            this.ItemPicture6.Enabled = true;
+            this.ItemPicture6.Visible = true;
+            this.CurrentItemNameLabel.Enabled = true;
+            this.CurrentItemNameLabel.Visible = true;
+            this.StarterItemPicture.Enabled = true;
+            this.StarterItemPicture.Visible = true;
+            this.RelicPicture1.Enabled = true;
+            this.RelicPicture1.Visible = true;
+            this.RelicPicture2.Enabled = true;
+            this.RelicPicture2.Visible = true;
+            this.GodPicture.Enabled = true;
+            this.GodPicture.Visible = true;
+            this.GodLabel.Visible = true;
+            this.RerollLabel.Visible = true;
+            this.RerollNumber.Visible = true;
+
+
             AssignBorder(0, ItemPicture1);
             AssignBorder(1, ItemPicture2);
             AssignBorder(2, ItemPicture3);

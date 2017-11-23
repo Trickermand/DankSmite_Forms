@@ -238,7 +238,7 @@ namespace DankSmite
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Maroon;
-            this.label9.Location = new System.Drawing.Point(80, 121);
+            this.label9.Location = new System.Drawing.Point(80, 62);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(48, 23);
             this.label9.TabIndex = 18;
@@ -248,22 +248,26 @@ namespace DankSmite
             // GodPicture
             // 
             this.GodPicture.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.GodPicture.Location = new System.Drawing.Point(39, 144);
+            this.GodPicture.Enabled = false;
+            this.GodPicture.Location = new System.Drawing.Point(39, 85);
             this.GodPicture.Name = "GodPicture";
             this.GodPicture.Size = new System.Drawing.Size(128, 128);
             this.GodPicture.TabIndex = 17;
             this.GodPicture.TabStop = false;
+            this.GodPicture.Visible = false;
             this.GodPicture.Click += new System.EventHandler(this.godPictureBox_Click);
             this.GodPicture.DoubleClick += new System.EventHandler(this.godPictureBox_Click);
             // 
             // ItemPicture1
             // 
             this.ItemPicture1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ItemPicture1.Enabled = false;
             this.ItemPicture1.Location = new System.Drawing.Point(567, 420);
             this.ItemPicture1.Name = "ItemPicture1";
             this.ItemPicture1.Size = new System.Drawing.Size(92, 92);
             this.ItemPicture1.TabIndex = 9;
             this.ItemPicture1.TabStop = false;
+            this.ItemPicture1.Visible = false;
             this.ItemPicture1.Click += new System.EventHandler(this.ItemPicture1_Click);
             this.ItemPicture1.DoubleClick += new System.EventHandler(this.ItemPicture1_Click);
             this.ItemPicture1.MouseEnter += new System.EventHandler(this.pictureBox1_Hover);
@@ -272,11 +276,13 @@ namespace DankSmite
             // ItemPicture2
             // 
             this.ItemPicture2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ItemPicture2.Enabled = false;
             this.ItemPicture2.Location = new System.Drawing.Point(690, 420);
             this.ItemPicture2.Name = "ItemPicture2";
             this.ItemPicture2.Size = new System.Drawing.Size(92, 92);
             this.ItemPicture2.TabIndex = 22;
             this.ItemPicture2.TabStop = false;
+            this.ItemPicture2.Visible = false;
             this.ItemPicture2.Click += new System.EventHandler(this.ItemPicture2_Click);
             this.ItemPicture2.DoubleClick += new System.EventHandler(this.ItemPicture2_Click);
             this.ItemPicture2.MouseEnter += new System.EventHandler(this.pictureBox2_Hover);
@@ -285,11 +291,13 @@ namespace DankSmite
             // ItemPicture3
             // 
             this.ItemPicture3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ItemPicture3.Enabled = false;
             this.ItemPicture3.Location = new System.Drawing.Point(813, 420);
             this.ItemPicture3.Name = "ItemPicture3";
             this.ItemPicture3.Size = new System.Drawing.Size(92, 92);
             this.ItemPicture3.TabIndex = 20;
             this.ItemPicture3.TabStop = false;
+            this.ItemPicture3.Visible = false;
             this.ItemPicture3.Click += new System.EventHandler(this.ItemPicture3_Click);
             this.ItemPicture3.DoubleClick += new System.EventHandler(this.ItemPicture3_Click);
             this.ItemPicture3.MouseEnter += new System.EventHandler(this.pictureBox3_Hover);
@@ -298,11 +306,13 @@ namespace DankSmite
             // ItemPicture4
             // 
             this.ItemPicture4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ItemPicture4.Enabled = false;
             this.ItemPicture4.Location = new System.Drawing.Point(567, 553);
             this.ItemPicture4.Name = "ItemPicture4";
             this.ItemPicture4.Size = new System.Drawing.Size(92, 92);
             this.ItemPicture4.TabIndex = 23;
             this.ItemPicture4.TabStop = false;
+            this.ItemPicture4.Visible = false;
             this.ItemPicture4.Click += new System.EventHandler(this.ItemPicture4_Click);
             this.ItemPicture4.DoubleClick += new System.EventHandler(this.ItemPicture4_Click);
             this.ItemPicture4.MouseEnter += new System.EventHandler(this.pictureBox4_Hover);
@@ -311,11 +321,13 @@ namespace DankSmite
             // ItemPicture5
             // 
             this.ItemPicture5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ItemPicture5.Enabled = false;
             this.ItemPicture5.Location = new System.Drawing.Point(690, 553);
             this.ItemPicture5.Name = "ItemPicture5";
             this.ItemPicture5.Size = new System.Drawing.Size(92, 92);
             this.ItemPicture5.TabIndex = 21;
             this.ItemPicture5.TabStop = false;
+            this.ItemPicture5.Visible = false;
             this.ItemPicture5.Click += new System.EventHandler(this.ItemPicture5_Click);
             this.ItemPicture5.DoubleClick += new System.EventHandler(this.ItemPicture5_Click);
             this.ItemPicture5.MouseEnter += new System.EventHandler(this.pictureBox5_Hover);
@@ -324,11 +336,13 @@ namespace DankSmite
             // ItemPicture6
             // 
             this.ItemPicture6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ItemPicture6.Enabled = false;
             this.ItemPicture6.Location = new System.Drawing.Point(813, 553);
             this.ItemPicture6.Name = "ItemPicture6";
             this.ItemPicture6.Size = new System.Drawing.Size(92, 92);
             this.ItemPicture6.TabIndex = 19;
             this.ItemPicture6.TabStop = false;
+            this.ItemPicture6.Visible = false;
             this.ItemPicture6.Click += new System.EventHandler(this.ItemPicture6_Click);
             this.ItemPicture6.DoubleClick += new System.EventHandler(this.ItemPicture6_Click);
             this.ItemPicture6.MouseEnter += new System.EventHandler(this.pictureBox6_Hover);
@@ -337,11 +351,13 @@ namespace DankSmite
             // RelicPicture1
             // 
             this.RelicPicture1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RelicPicture1.Enabled = false;
             this.RelicPicture1.Location = new System.Drawing.Point(310, 553);
             this.RelicPicture1.Name = "RelicPicture1";
             this.RelicPicture1.Size = new System.Drawing.Size(92, 92);
             this.RelicPicture1.TabIndex = 25;
             this.RelicPicture1.TabStop = false;
+            this.RelicPicture1.Visible = false;
             this.RelicPicture1.Click += new System.EventHandler(this.RelicPicture1_Click);
             this.RelicPicture1.DoubleClick += new System.EventHandler(this.RelicPicture1_Click);
             this.RelicPicture1.MouseEnter += new System.EventHandler(this.Relic1_Hover);
@@ -350,11 +366,13 @@ namespace DankSmite
             // RelicPicture2
             // 
             this.RelicPicture2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RelicPicture2.Enabled = false;
             this.RelicPicture2.Location = new System.Drawing.Point(433, 553);
             this.RelicPicture2.Name = "RelicPicture2";
             this.RelicPicture2.Size = new System.Drawing.Size(92, 92);
             this.RelicPicture2.TabIndex = 24;
             this.RelicPicture2.TabStop = false;
+            this.RelicPicture2.Visible = false;
             this.RelicPicture2.Click += new System.EventHandler(this.RelicPicture2_Click);
             this.RelicPicture2.DoubleClick += new System.EventHandler(this.RelicPicture2_Click);
             this.RelicPicture2.MouseEnter += new System.EventHandler(this.Relic2_Hover);
@@ -367,28 +385,30 @@ namespace DankSmite
             this.RerollLabel.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RerollLabel.ForeColor = System.Drawing.Color.White;
             this.RerollLabel.Image = global::DankSmite.Properties.Resources.FrameRerollsUsed;
-            this.RerollLabel.Location = new System.Drawing.Point(39, 279);
+            this.RerollLabel.Location = new System.Drawing.Point(38, 243);
             this.RerollLabel.MinimumSize = new System.Drawing.Size(128, 29);
             this.RerollLabel.Name = "RerollLabel";
             this.RerollLabel.Size = new System.Drawing.Size(128, 29);
             this.RerollLabel.TabIndex = 36;
             this.RerollLabel.Text = "Rerolls Used";
             this.RerollLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.RerollLabel.Visible = false;
             // 
             // RerollNumber
             // 
             this.RerollNumber.AutoSize = true;
             this.RerollNumber.BackColor = System.Drawing.Color.Transparent;
             this.RerollNumber.Font = new System.Drawing.Font("Baskerville Old Face", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RerollNumber.ForeColor = System.Drawing.Color.Maroon;
-            this.RerollNumber.Image = global::DankSmite.Properties.Resources.FrameRerollcounter1;
-            this.RerollNumber.Location = new System.Drawing.Point(75, 326);
-            this.RerollNumber.MinimumSize = new System.Drawing.Size(52, 60);
+            this.RerollNumber.ForeColor = System.Drawing.Color.White;
+            this.RerollNumber.Image = global::DankSmite.Properties.Resources.FrameRerollCounter;
+            this.RerollNumber.Location = new System.Drawing.Point(53, 276);
+            this.RerollNumber.MinimumSize = new System.Drawing.Size(102, 60);
             this.RerollNumber.Name = "RerollNumber";
-            this.RerollNumber.Size = new System.Drawing.Size(52, 60);
+            this.RerollNumber.Size = new System.Drawing.Size(102, 60);
             this.RerollNumber.TabIndex = 37;
             this.RerollNumber.Text = "0";
-            this.RerollNumber.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.RerollNumber.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.RerollNumber.Visible = false;
             // 
             // TextInput
             // 
@@ -408,11 +428,13 @@ namespace DankSmite
             // StarterItemPicture
             // 
             this.StarterItemPicture.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.StarterItemPicture.Enabled = false;
             this.StarterItemPicture.Location = new System.Drawing.Point(370, 420);
             this.StarterItemPicture.Name = "StarterItemPicture";
             this.StarterItemPicture.Size = new System.Drawing.Size(92, 92);
             this.StarterItemPicture.TabIndex = 40;
             this.StarterItemPicture.TabStop = false;
+            this.StarterItemPicture.Visible = false;
             this.StarterItemPicture.Click += new System.EventHandler(this.StarterItemPicture_Click);
             this.StarterItemPicture.DoubleClick += new System.EventHandler(this.StarterItemPicture_Click);
             this.StarterItemPicture.MouseEnter += new System.EventHandler(this.StarterItemPicture_Hover);
@@ -438,27 +460,34 @@ namespace DankSmite
             // CurrentItemNameLabel
             // 
             this.CurrentItemNameLabel.AutoSize = true;
-            this.CurrentItemNameLabel.BackColor = System.Drawing.Color.SkyBlue;
-            this.CurrentItemNameLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.CurrentItemNameLabel.Font = new System.Drawing.Font("Baskerville Old Face", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CurrentItemNameLabel.BackColor = System.Drawing.Color.Transparent;
+            this.CurrentItemNameLabel.Enabled = false;
+            this.CurrentItemNameLabel.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CurrentItemNameLabel.ForeColor = System.Drawing.Color.White;
+            this.CurrentItemNameLabel.Image = global::DankSmite.Properties.Resources.FrameCurrentItemText;
             this.CurrentItemNameLabel.Location = new System.Drawing.Point(592, 349);
-            this.CurrentItemNameLabel.MinimumSize = new System.Drawing.Size(285, 25);
+            this.CurrentItemNameLabel.MinimumSize = new System.Drawing.Size(289, 29);
             this.CurrentItemNameLabel.Name = "CurrentItemNameLabel";
-            this.CurrentItemNameLabel.Size = new System.Drawing.Size(285, 26);
+            this.CurrentItemNameLabel.Size = new System.Drawing.Size(289, 29);
             this.CurrentItemNameLabel.TabIndex = 42;
+            this.CurrentItemNameLabel.Text = " ";
+            this.CurrentItemNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.CurrentItemNameLabel.Visible = false;
             // 
             // GodLabel
             // 
             this.GodLabel.AutoSize = true;
             this.GodLabel.BackColor = System.Drawing.Color.Transparent;
-            this.GodLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GodLabel.ForeColor = System.Drawing.Color.Black;
-            this.GodLabel.Location = new System.Drawing.Point(191, 189);
-            this.GodLabel.MinimumSize = new System.Drawing.Size(150, 25);
+            this.GodLabel.Font = new System.Drawing.Font("Baskerville Old Face", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GodLabel.ForeColor = System.Drawing.Color.White;
+            this.GodLabel.Image = global::DankSmite.Properties.Resources.FrameGodName;
+            this.GodLabel.Location = new System.Drawing.Point(191, 130);
+            this.GodLabel.MinimumSize = new System.Drawing.Size(276, 43);
             this.GodLabel.Name = "GodLabel";
-            this.GodLabel.Size = new System.Drawing.Size(150, 37);
+            this.GodLabel.Size = new System.Drawing.Size(276, 43);
             this.GodLabel.TabIndex = 43;
             this.GodLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.GodLabel.Visible = false;
             // 
             // CreditsButon
             // 
@@ -475,9 +504,12 @@ namespace DankSmite
             // GeneralTextBox
             // 
             this.GeneralTextBox.AutoSize = true;
+            this.GeneralTextBox.BackColor = System.Drawing.Color.Transparent;
             this.GeneralTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.GeneralTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GeneralTextBox.Location = new System.Drawing.Point(193, 37);
+            this.GeneralTextBox.Font = new System.Drawing.Font("Baskerville Old Face", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GeneralTextBox.ForeColor = System.Drawing.Color.White;
+            this.GeneralTextBox.Image = global::DankSmite.Properties.Resources.FrameGeneralText;
+            this.GeneralTextBox.Location = new System.Drawing.Point(188, 36);
             this.GeneralTextBox.MaximumSize = new System.Drawing.Size(300, 300);
             this.GeneralTextBox.MinimumSize = new System.Drawing.Size(300, 300);
             this.GeneralTextBox.Name = "GeneralTextBox";

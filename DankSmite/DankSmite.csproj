@@ -138,9 +138,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon300_5.ico" />
+    <None Include="Resources\FrameRerollCounter.png" />
+    <None Include="Resources\FrameCurrentItemText.png" />
+    <None Include="Resources\FrameGeneralText.png" />
     <None Include="Resources\FrameGodName.png" />
-    <None Include="Resources\FrameRerollcounter2.png" />
-    <None Include="Resources\FrameRerollcounter1.png" />
     <None Include="Resources\FrameRerollsUsed.png" />
     <None Include="Resources\FrameRelic.png" />
     <None Include="Resources\FrameItem.png" />
