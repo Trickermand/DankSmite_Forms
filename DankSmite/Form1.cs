@@ -36,7 +36,7 @@ namespace DankSmite
         
 
         static Item[] _build = new Item[9] {
-            new Item("","",false, false, false),
+            new Item("somestuff","",false, false, false),
             new Item("","",false, false, false),
             new Item("","",false, false, false),
             new Item("","",false, false, false),
