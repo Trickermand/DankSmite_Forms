@@ -18,6 +18,12 @@ namespace DankSmite
             InitializeComponent();
             WelcomeButton_Click(null, null);
             this.Text += " " + Assembly.GetExecutingAssembly().GetName().Version.ToString(2);
+            List<string> AllGodNames = godCol.retrieveAllGodNames();
+            foreach (string GodName in AllGodNames)
+            {
+                this.DropDownMenu.Items.Add(GodName);
+            }
+            this.DropDownMenu.SelectedIndex = 0;
 
         }
         
@@ -27,6 +33,7 @@ namespace DankSmite
         public bool CredsFlag = false;
         public bool WelcomeFlag = false;
         public bool DetailsFlag = false;
+        public bool FirstDropDown = true;
         
 
         static Item[] _build = new Item[9] {
@@ -102,7 +109,11 @@ namespace DankSmite
 
         public void DropDownMenu_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (this.DropDownMenu.SelectedIndex == 0)
+            if (FirstDropDown)
+            {
+                FirstDropDown = false;
+            }
+            else if (this.DropDownMenu.SelectedIndex == 0)
             {
                 this.TextInput.Text = "";
             }
@@ -618,7 +629,6 @@ namespace DankSmite
 
 
         #region BodySection
-
         //Checkboxes with gods and itemcolours, sets _build to a full build, and _god to a god
         public void fullRebuild(bool g, bool m, bool h, bool a, bool w, bool dmg, bool hyb, bool def)
         {

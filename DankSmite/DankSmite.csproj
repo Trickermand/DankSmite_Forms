@@ -138,6 +138,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon300_5.ico" />
+    <None Include="Resources\font-opium.bmp" />
+    <None Include="Resources\OPIUM.TTF" />
+    <None Include="Resources\TestFrameStarter3.png" />
+    <None Include="Resources\TestFrameStarter2.png" />
+    <None Include="Resources\TestFrameStarter.png" />
     <None Include="Resources\YmirIsTheBest.png" />
     <None Include="Resources\SplattGreaterThanKlopper.png" />
     <None Include="Resources\KlopperIsShit.png" />

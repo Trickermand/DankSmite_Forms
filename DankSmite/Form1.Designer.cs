@@ -95,7 +95,7 @@ namespace DankSmite
             // 
             this.button1.BackColor = System.Drawing.Color.Maroon;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("DejaVu Serif Condensed", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(534, 59);
             this.button1.Name = "button1";
@@ -108,11 +108,11 @@ namespace DankSmite
             // ItemLabel1
             // 
             this.ItemLabel1.AutoSize = true;
-            this.ItemLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemLabel1.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ItemLabel1.ForeColor = System.Drawing.Color.Maroon;
             this.ItemLabel1.Location = new System.Drawing.Point(583, 397);
             this.ItemLabel1.Name = "ItemLabel1";
-            this.ItemLabel1.Size = new System.Drawing.Size(60, 20);
+            this.ItemLabel1.Size = new System.Drawing.Size(68, 23);
             this.ItemLabel1.TabIndex = 1;
             this.ItemLabel1.Text = "Item 1";
             this.ItemLabel1.Visible = false;
@@ -120,11 +120,11 @@ namespace DankSmite
             // ItemLabel2
             // 
             this.ItemLabel2.AutoSize = true;
-            this.ItemLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemLabel2.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ItemLabel2.ForeColor = System.Drawing.Color.Maroon;
             this.ItemLabel2.Location = new System.Drawing.Point(705, 397);
             this.ItemLabel2.Name = "ItemLabel2";
-            this.ItemLabel2.Size = new System.Drawing.Size(60, 20);
+            this.ItemLabel2.Size = new System.Drawing.Size(68, 23);
             this.ItemLabel2.TabIndex = 2;
             this.ItemLabel2.Text = "Item 2";
             this.ItemLabel2.Visible = false;
@@ -133,11 +133,11 @@ namespace DankSmite
             // 
             this.ItemLabel3.AutoSize = true;
             this.ItemLabel3.BackColor = System.Drawing.Color.SkyBlue;
-            this.ItemLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemLabel3.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ItemLabel3.ForeColor = System.Drawing.Color.Maroon;
             this.ItemLabel3.Location = new System.Drawing.Point(827, 397);
             this.ItemLabel3.Name = "ItemLabel3";
-            this.ItemLabel3.Size = new System.Drawing.Size(60, 20);
+            this.ItemLabel3.Size = new System.Drawing.Size(68, 23);
             this.ItemLabel3.TabIndex = 3;
             this.ItemLabel3.Text = "Item 3";
             this.ItemLabel3.Visible = false;
@@ -145,11 +145,11 @@ namespace DankSmite
             // ItemLabel4
             // 
             this.ItemLabel4.AutoSize = true;
-            this.ItemLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemLabel4.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ItemLabel4.ForeColor = System.Drawing.Color.Maroon;
             this.ItemLabel4.Location = new System.Drawing.Point(583, 530);
             this.ItemLabel4.Name = "ItemLabel4";
-            this.ItemLabel4.Size = new System.Drawing.Size(60, 20);
+            this.ItemLabel4.Size = new System.Drawing.Size(68, 23);
             this.ItemLabel4.TabIndex = 4;
             this.ItemLabel4.Text = "Item 4";
             this.ItemLabel4.Visible = false;
@@ -157,11 +157,11 @@ namespace DankSmite
             // ItemLabel5
             // 
             this.ItemLabel5.AutoSize = true;
-            this.ItemLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemLabel5.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ItemLabel5.ForeColor = System.Drawing.Color.Maroon;
             this.ItemLabel5.Location = new System.Drawing.Point(705, 530);
             this.ItemLabel5.Name = "ItemLabel5";
-            this.ItemLabel5.Size = new System.Drawing.Size(60, 20);
+            this.ItemLabel5.Size = new System.Drawing.Size(68, 23);
             this.ItemLabel5.TabIndex = 5;
             this.ItemLabel5.Text = "Item 5";
             this.ItemLabel5.Visible = false;
@@ -169,11 +169,11 @@ namespace DankSmite
             // ItemLabel6
             // 
             this.ItemLabel6.AutoSize = true;
-            this.ItemLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemLabel6.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ItemLabel6.ForeColor = System.Drawing.Color.Maroon;
             this.ItemLabel6.Location = new System.Drawing.Point(827, 530);
             this.ItemLabel6.Name = "ItemLabel6";
-            this.ItemLabel6.Size = new System.Drawing.Size(60, 20);
+            this.ItemLabel6.Size = new System.Drawing.Size(68, 23);
             this.ItemLabel6.TabIndex = 6;
             this.ItemLabel6.Text = "Item 6";
             this.ItemLabel6.Visible = false;
@@ -181,11 +181,11 @@ namespace DankSmite
             // RelicLabel2
             // 
             this.RelicLabel2.AutoSize = true;
-            this.RelicLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RelicLabel2.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RelicLabel2.ForeColor = System.Drawing.Color.Maroon;
             this.RelicLabel2.Location = new System.Drawing.Point(444, 530);
             this.RelicLabel2.Name = "RelicLabel2";
-            this.RelicLabel2.Size = new System.Drawing.Size(64, 20);
+            this.RelicLabel2.Size = new System.Drawing.Size(72, 23);
             this.RelicLabel2.TabIndex = 7;
             this.RelicLabel2.Text = "Relic 2";
             this.RelicLabel2.Visible = false;
@@ -193,11 +193,11 @@ namespace DankSmite
             // RelicLabel1
             // 
             this.RelicLabel1.AutoSize = true;
-            this.RelicLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RelicLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RelicLabel1.ForeColor = System.Drawing.Color.Maroon;
             this.RelicLabel1.Location = new System.Drawing.Point(326, 530);
             this.RelicLabel1.Name = "RelicLabel1";
-            this.RelicLabel1.Size = new System.Drawing.Size(64, 20);
+            this.RelicLabel1.Size = new System.Drawing.Size(77, 25);
             this.RelicLabel1.TabIndex = 8;
             this.RelicLabel1.Text = "Relic 1";
             this.RelicLabel1.Visible = false;
@@ -205,11 +205,11 @@ namespace DankSmite
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Maroon;
             this.label9.Location = new System.Drawing.Point(80, 121);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(43, 20);
+            this.label9.Size = new System.Drawing.Size(48, 23);
             this.label9.TabIndex = 18;
             this.label9.Text = "God";
             // 
@@ -331,11 +331,11 @@ namespace DankSmite
             // RerollLabel
             // 
             this.RerollLabel.AutoSize = true;
-            this.RerollLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RerollLabel.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RerollLabel.ForeColor = System.Drawing.Color.Maroon;
             this.RerollLabel.Location = new System.Drawing.Point(47, 279);
             this.RerollLabel.Name = "RerollLabel";
-            this.RerollLabel.Size = new System.Drawing.Size(112, 20);
+            this.RerollLabel.Size = new System.Drawing.Size(124, 23);
             this.RerollLabel.TabIndex = 36;
             this.RerollLabel.Text = "Rerolls Used";
             // 
@@ -343,12 +343,12 @@ namespace DankSmite
             // 
             this.RerollNumber.AutoSize = true;
             this.RerollNumber.BackColor = System.Drawing.Color.Transparent;
-            this.RerollNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RerollNumber.Font = new System.Drawing.Font("Baskerville Old Face", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RerollNumber.ForeColor = System.Drawing.Color.Maroon;
             this.RerollNumber.Location = new System.Drawing.Point(39, 308);
             this.RerollNumber.MinimumSize = new System.Drawing.Size(128, 0);
             this.RerollNumber.Name = "RerollNumber";
-            this.RerollNumber.Size = new System.Drawing.Size(128, 55);
+            this.RerollNumber.Size = new System.Drawing.Size(128, 54);
             this.RerollNumber.TabIndex = 37;
             this.RerollNumber.Text = "0";
             this.RerollNumber.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -384,13 +384,18 @@ namespace DankSmite
             // StarterItemLabel
             // 
             this.StarterItemLabel.AutoSize = true;
-            this.StarterItemLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StarterItemLabel.BackColor = System.Drawing.Color.Transparent;
+            this.StarterItemLabel.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StarterItemLabel.ForeColor = System.Drawing.Color.Maroon;
-            this.StarterItemLabel.Location = new System.Drawing.Point(363, 397);
+            this.StarterItemLabel.Image = global::DankSmite.Properties.Resources.TestFrameStarter3;
+            this.StarterItemLabel.Location = new System.Drawing.Point(359, 391);
+            this.StarterItemLabel.Margin = new System.Windows.Forms.Padding(0);
+            this.StarterItemLabel.MinimumSize = new System.Drawing.Size(115, 28);
             this.StarterItemLabel.Name = "StarterItemLabel";
-            this.StarterItemLabel.Size = new System.Drawing.Size(106, 20);
+            this.StarterItemLabel.Size = new System.Drawing.Size(116, 28);
             this.StarterItemLabel.TabIndex = 41;
             this.StarterItemLabel.Text = "Starter Item";
+            this.StarterItemLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.StarterItemLabel.Visible = false;
             // 
             // CurrentItemNameLabel
@@ -398,11 +403,11 @@ namespace DankSmite
             this.CurrentItemNameLabel.AutoSize = true;
             this.CurrentItemNameLabel.BackColor = System.Drawing.Color.SkyBlue;
             this.CurrentItemNameLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.CurrentItemNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CurrentItemNameLabel.Font = new System.Drawing.Font("Baskerville Old Face", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CurrentItemNameLabel.Location = new System.Drawing.Point(592, 349);
             this.CurrentItemNameLabel.MinimumSize = new System.Drawing.Size(285, 25);
             this.CurrentItemNameLabel.Name = "CurrentItemNameLabel";
-            this.CurrentItemNameLabel.Size = new System.Drawing.Size(285, 27);
+            this.CurrentItemNameLabel.Size = new System.Drawing.Size(285, 26);
             this.CurrentItemNameLabel.TabIndex = 42;
             // 
             // GodLabel
@@ -464,12 +469,12 @@ namespace DankSmite
             this.MageCheckBox.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.MageCheckBox.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.MageCheckBox.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.MageCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MageCheckBox.Location = new System.Drawing.Point(10, 106);
+            this.MageCheckBox.Font = new System.Drawing.Font("Baskerville Old Face", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MageCheckBox.Location = new System.Drawing.Point(6, 101);
             this.MageCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.MageCheckBox.Name = "MageCheckBox";
             this.MageCheckBox.Padding = new System.Windows.Forms.Padding(1);
-            this.MageCheckBox.Size = new System.Drawing.Size(59, 19);
+            this.MageCheckBox.Size = new System.Drawing.Size(61, 20);
             this.MageCheckBox.TabIndex = 48;
             this.MageCheckBox.Text = "Mage";
             this.MageCheckBox.UseVisualStyleBackColor = false;
@@ -481,12 +486,12 @@ namespace DankSmite
             this.GuardianCheckBox.Checked = true;
             this.GuardianCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.GuardianCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.GuardianCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GuardianCheckBox.Location = new System.Drawing.Point(10, 77);
+            this.GuardianCheckBox.Font = new System.Drawing.Font("Baskerville Old Face", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GuardianCheckBox.Location = new System.Drawing.Point(6, 72);
             this.GuardianCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.GuardianCheckBox.Name = "GuardianCheckBox";
             this.GuardianCheckBox.Padding = new System.Windows.Forms.Padding(1);
-            this.GuardianCheckBox.Size = new System.Drawing.Size(87, 21);
+            this.GuardianCheckBox.Size = new System.Drawing.Size(87, 20);
             this.GuardianCheckBox.TabIndex = 49;
             this.GuardianCheckBox.Text = "Guardian";
             this.GuardianCheckBox.UseVisualStyleBackColor = false;
@@ -498,12 +503,12 @@ namespace DankSmite
             this.HunterCheckBox.Checked = true;
             this.HunterCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.HunterCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.HunterCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HunterCheckBox.Location = new System.Drawing.Point(120, 77);
+            this.HunterCheckBox.Font = new System.Drawing.Font("Baskerville Old Face", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HunterCheckBox.Location = new System.Drawing.Point(116, 72);
             this.HunterCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.HunterCheckBox.Name = "HunterCheckBox";
             this.HunterCheckBox.Padding = new System.Windows.Forms.Padding(1);
-            this.HunterCheckBox.Size = new System.Drawing.Size(71, 21);
+            this.HunterCheckBox.Size = new System.Drawing.Size(73, 20);
             this.HunterCheckBox.TabIndex = 50;
             this.HunterCheckBox.Text = "Hunter";
             this.HunterCheckBox.UseVisualStyleBackColor = false;
@@ -515,12 +520,12 @@ namespace DankSmite
             this.WarriorCheckBox.Checked = true;
             this.WarriorCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.WarriorCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.WarriorCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WarriorCheckBox.Location = new System.Drawing.Point(121, 133);
+            this.WarriorCheckBox.Font = new System.Drawing.Font("Baskerville Old Face", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WarriorCheckBox.Location = new System.Drawing.Point(117, 128);
             this.WarriorCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.WarriorCheckBox.Name = "WarriorCheckBox";
             this.WarriorCheckBox.Padding = new System.Windows.Forms.Padding(1);
-            this.WarriorCheckBox.Size = new System.Drawing.Size(75, 21);
+            this.WarriorCheckBox.Size = new System.Drawing.Size(80, 20);
             this.WarriorCheckBox.TabIndex = 51;
             this.WarriorCheckBox.Text = "Warrior";
             this.WarriorCheckBox.UseVisualStyleBackColor = false;
@@ -532,12 +537,12 @@ namespace DankSmite
             this.AssassinCheckBox.Checked = true;
             this.AssassinCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.AssassinCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AssassinCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AssassinCheckBox.Location = new System.Drawing.Point(121, 104);
+            this.AssassinCheckBox.Font = new System.Drawing.Font("Baskerville Old Face", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AssassinCheckBox.Location = new System.Drawing.Point(117, 99);
             this.AssassinCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.AssassinCheckBox.Name = "AssassinCheckBox";
             this.AssassinCheckBox.Padding = new System.Windows.Forms.Padding(1);
-            this.AssassinCheckBox.Size = new System.Drawing.Size(84, 21);
+            this.AssassinCheckBox.Size = new System.Drawing.Size(81, 20);
             this.AssassinCheckBox.TabIndex = 52;
             this.AssassinCheckBox.Text = "Assassin";
             this.AssassinCheckBox.UseVisualStyleBackColor = false;
@@ -549,12 +554,12 @@ namespace DankSmite
             this.DefenseCheckBox.Checked = true;
             this.DefenseCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.DefenseCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DefenseCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DefenseCheckBox.Location = new System.Drawing.Point(272, 137);
+            this.DefenseCheckBox.Font = new System.Drawing.Font("Baskerville Old Face", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DefenseCheckBox.Location = new System.Drawing.Point(268, 132);
             this.DefenseCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.DefenseCheckBox.Name = "DefenseCheckBox";
             this.DefenseCheckBox.Padding = new System.Windows.Forms.Padding(1);
-            this.DefenseCheckBox.Size = new System.Drawing.Size(81, 21);
+            this.DefenseCheckBox.Size = new System.Drawing.Size(79, 20);
             this.DefenseCheckBox.TabIndex = 55;
             this.DefenseCheckBox.Text = "Defense";
             this.DefenseCheckBox.UseVisualStyleBackColor = false;
@@ -566,12 +571,12 @@ namespace DankSmite
             this.HybridCheckBox.Checked = true;
             this.HybridCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.HybridCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.HybridCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HybridCheckBox.Location = new System.Drawing.Point(272, 106);
+            this.HybridCheckBox.Font = new System.Drawing.Font("Baskerville Old Face", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HybridCheckBox.Location = new System.Drawing.Point(268, 101);
             this.HybridCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.HybridCheckBox.Name = "HybridCheckBox";
             this.HybridCheckBox.Padding = new System.Windows.Forms.Padding(1);
-            this.HybridCheckBox.Size = new System.Drawing.Size(69, 21);
+            this.HybridCheckBox.Size = new System.Drawing.Size(72, 20);
             this.HybridCheckBox.TabIndex = 54;
             this.HybridCheckBox.Text = "Hybrid";
             this.HybridCheckBox.UseVisualStyleBackColor = false;
@@ -583,12 +588,12 @@ namespace DankSmite
             this.DamageCheckBox.Checked = true;
             this.DamageCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.DamageCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DamageCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DamageCheckBox.Location = new System.Drawing.Point(272, 77);
+            this.DamageCheckBox.Font = new System.Drawing.Font("Baskerville Old Face", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DamageCheckBox.Location = new System.Drawing.Point(268, 72);
             this.DamageCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.DamageCheckBox.Name = "DamageCheckBox";
             this.DamageCheckBox.Padding = new System.Windows.Forms.Padding(1);
-            this.DamageCheckBox.Size = new System.Drawing.Size(82, 21);
+            this.DamageCheckBox.Size = new System.Drawing.Size(77, 20);
             this.DamageCheckBox.TabIndex = 53;
             this.DamageCheckBox.Text = "Damage";
             this.DamageCheckBox.UseVisualStyleBackColor = false;
@@ -599,12 +604,12 @@ namespace DankSmite
             this.MagicalLabel.BackColor = System.Drawing.Color.SkyBlue;
             this.MagicalLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.MagicalLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MagicalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MagicalLabel.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MagicalLabel.ForeColor = System.Drawing.Color.Maroon;
             this.MagicalLabel.Location = new System.Drawing.Point(6, 35);
             this.MagicalLabel.Name = "MagicalLabel";
             this.MagicalLabel.Padding = new System.Windows.Forms.Padding(2);
-            this.MagicalLabel.Size = new System.Drawing.Size(76, 26);
+            this.MagicalLabel.Size = new System.Drawing.Size(85, 29);
             this.MagicalLabel.TabIndex = 56;
             this.MagicalLabel.Text = "Magical";
             this.MagicalLabel.Click += new System.EventHandler(this.MagicalLabel_Click);
@@ -616,12 +621,12 @@ namespace DankSmite
             this.PhysicalLabel.BackColor = System.Drawing.Color.SkyBlue;
             this.PhysicalLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PhysicalLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PhysicalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PhysicalLabel.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PhysicalLabel.ForeColor = System.Drawing.Color.Maroon;
             this.PhysicalLabel.Location = new System.Drawing.Point(117, 36);
             this.PhysicalLabel.Name = "PhysicalLabel";
             this.PhysicalLabel.Padding = new System.Windows.Forms.Padding(2);
-            this.PhysicalLabel.Size = new System.Drawing.Size(80, 26);
+            this.PhysicalLabel.Size = new System.Drawing.Size(88, 29);
             this.PhysicalLabel.TabIndex = 57;
             this.PhysicalLabel.Text = "Physical";
             this.PhysicalLabel.Click += new System.EventHandler(this.PhysicalLabel_Click);
@@ -633,12 +638,12 @@ namespace DankSmite
             this.ItemIntensityLabel.BackColor = System.Drawing.Color.SkyBlue;
             this.ItemIntensityLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ItemIntensityLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ItemIntensityLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemIntensityLabel.Font = new System.Drawing.Font("Baskerville Old Face", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ItemIntensityLabel.ForeColor = System.Drawing.Color.Maroon;
             this.ItemIntensityLabel.Location = new System.Drawing.Point(270, 35);
             this.ItemIntensityLabel.Name = "ItemIntensityLabel";
             this.ItemIntensityLabel.Padding = new System.Windows.Forms.Padding(2);
-            this.ItemIntensityLabel.Size = new System.Drawing.Size(94, 26);
+            this.ItemIntensityLabel.Size = new System.Drawing.Size(108, 29);
             this.ItemIntensityLabel.TabIndex = 58;
             this.ItemIntensityLabel.Text = "Item Type";
             this.ItemIntensityLabel.Click += new System.EventHandler(this.ItemIntensityLabel_Click);
@@ -683,16 +688,11 @@ namespace DankSmite
             // 
             this.DropDownMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DropDownMenu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DropDownMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DropDownMenu.FormattingEnabled = true;
-#if Live
-            this.DropDownMenu.Items.AddRange(AllActualGods.ToArray());
-#else
-            this.DropDownMenu.Items.Add("God");
-#endif
-            this.DropDownMenu.Text = "God";
             this.DropDownMenu.Location = new System.Drawing.Point(747, 23);
             this.DropDownMenu.Name = "DropDownMenu";
-            this.DropDownMenu.Size = new System.Drawing.Size(165, 21);
+            this.DropDownMenu.Size = new System.Drawing.Size(165, 23);
             this.DropDownMenu.TabIndex = 62;
             this.DropDownMenu.SelectedIndexChanged += new System.EventHandler(this.DropDownMenu_SelectedIndexChanged);
             this.DropDownMenu.KeyDown += new System.Windows.Forms.KeyEventHandler(this.DropDownMenu_KeyPress);

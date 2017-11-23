@@ -2023,6 +2023,36 @@ namespace DankSmite.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap TestFrameStarter {
+            get {
+                object obj = ResourceManager.GetObject("TestFrameStarter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TestFrameStarter2 {
+            get {
+                object obj = ResourceManager.GetObject("TestFrameStarter2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TestFrameStarter3 {
+            get {
+                object obj = ResourceManager.GetObject("TestFrameStarter3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap thanatos {
             get {
                 object obj = ResourceManager.GetObject("thanatos", resourceCulture);
